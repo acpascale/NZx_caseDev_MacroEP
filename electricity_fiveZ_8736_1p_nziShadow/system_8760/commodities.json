@@ -1,0 +1,14 @@
+{
+    "commodities": [
+        "Electricity",
+        "NaturalGas",
+        "Coal",
+        "Uranium",
+        "LiquidFuels",
+        {"name": "Diesel", "acts_like": "LiquidFuels"},
+        {"name": "Fossil_Diesel", "acts_like": "LiquidFuels"},
+        "Biomass",
+        "CO2",
+        "CO2Captured"
+    ]
+}

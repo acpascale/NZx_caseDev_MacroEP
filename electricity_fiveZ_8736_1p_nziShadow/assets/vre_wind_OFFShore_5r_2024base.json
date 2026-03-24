@@ -1,0 +1,78 @@
+{
+    "VariableRenewablesWind": {
+        "type": "VRE",
+        "global_data": {
+            "elec_can_retire": false,
+            "elec_can_expand": false,                
+            "elec_constraints": {
+                    "MaxCapacityConstraint": false
+            },
+            "lifetime": 25,
+            "fixed_om_cost": 34540000,
+            "investment_cost": 193800000,
+            "variable_om_cost": 0
+        },
+        "instance_data": [
+            {
+                "id": "NR_offshore_wind",
+                "location": "NR",
+                "existing_capacity": 0,
+                "max_capacity": 0,
+                "availability": {
+                    "timeseries": {
+                        "header": "NR_offshore_wind",
+                        "path": "system/availability.csv"
+                    }
+                }
+            },
+            {
+                "id": "NER_offshore_wind",
+                "location": "NER",
+                "existing_capacity": 0,
+                "max_capacity": 0,
+                "availability": {
+                    "timeseries": {
+                        "header": "NER_offshore_wind",
+                        "path": "system/availability.csv"
+                    }
+                }
+            },
+            {
+                "id": "ER_offshore_wind",
+                "location": "ER",
+                "existing_capacity": 0,
+                "max_capacity":0,
+                "availability": {
+                    "timeseries": {
+                        "header": "ER_offshore_wind",
+                        "path": "system/availability.csv"
+                    }
+                }
+            },         
+            {
+                "id": "WR_offshore_wind",
+                "location": "WR",
+                "existing_capacity": 0,
+                "max_capacity": 0,
+                "availability": {
+                    "timeseries": {
+                        "header": "WR_offshore_wind",
+                        "path": "system/availability.csv"
+                    }
+                }
+            },
+            {
+                "id": "SR_offshore_wind",
+                "location": "SR",
+                "existing_capacity": 0,
+                "max_capacity": 0,
+                "availability": {
+                    "timeseries": {
+                        "header": "SR_offshore_wind",
+                        "path": "system/availability.csv"
+                    }
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "ThermalPowerNaturalGas": {
+        "type": "ThermalPower",
+        "global_data": {
+            "id": "NG_CCGT",
+                "timedata": "NaturalGas",
+                "fuel_commodity": "NaturalGas",
+                "fuel_start_vertex": "naturalgas_source",
+                "co2_sink": "co2_sink",
+                "uc": true,
+                "elec_constraints": {
+                    "CapacityConstraint": true,
+                    "RampingLimitConstraint": true,
+                    "MinFlowConstraint": true,
+                    "MinUpTimeConstraint": true,
+                    "MinDownTimeConstraint": true
+                },
+                "ramp_up_fraction": 0.9,
+                "ramp_down_fraction": 0.9,
+                "min_flow_fraction": 0,
+                "lifetime": 25,
+                "capacity_size": 250,
+                "can_retire": false,
+                "investment_cost": 34700000,
+                "emission_rate": 0.43,
+                "fixed_om_cost": 8512228,
+                "variable_om_cost": 0,
+                "fuel_consumption": 2.47
+        },
+        "instance_data": [
+            {
+                "id": "NR_NG_CCGT",
+                "location": "NR",
+                "existing_capacity": 7330.5,
+                "can_expand": false
+                
+            },
+            {
+                "id": "NER_NG_CCGT",
+                "location": "NER",
+                "existing_capacity":2002.4,
+                "can_expand": false
+                
+            },
+            {
+                "id": "ER_NG_CCGT",
+                "location": "ER",
+                "existing_capacity": 770.8,
+                "can_expand": false
+                
+            },
+            {
+                "id": "WR_NG_CCGT",
+                "location": "WR",
+                "existing_capacity": 13563.1,
+                "can_expand": false
+                
+            },
+            {
+                "id": "SR_NG_CCGT",
+                "location": "SR",
+                "existing_capacity": 7730.2,
+                "can_expand": false
+                
+            }
+        ]
+    }
+}

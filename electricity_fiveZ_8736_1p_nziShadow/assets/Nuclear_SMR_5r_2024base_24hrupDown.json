@@ -1,0 +1,70 @@
+{
+    "ThermalPowerNaturalGas": {
+        "type": "ThermalPower",
+        "global_data": {
+                "timedata": "Uranium",
+                "fuel_commodity": "Uranium",
+                "fuel_start_vertex": "uranium_source",
+                "co2_sink": "co2_sink",         
+                "emission_rate": 0,
+                "uc": true,
+                "elec_constraints": {
+                    "CapacityConstraint": true,
+                    "RampingLimitConstraint": true,
+                    "MinFlowConstraint": true,
+                    "MinUpTimeConstraint": true,
+                    "MinDownTimeConstraint": true
+                },
+                "startup_cost": 0,
+                "startup_fuel_consumption": 0.0,
+                "min_up_time": 23,
+                "min_down_time": 23,
+                "ramp_up_fraction": 0.01,
+                "ramp_down_fraction": 0.01,
+                "min_flow_fraction": 0.5,
+                "lifetime": 40,
+                "capacity_size": 1000,
+                "can_retire": false,
+                "fixed_om_cost": 4300000,
+                "variable_om_cost": 3320,
+                "investment_cost": 117000000
+        },
+        "instance_data": [
+            {
+                "id": "NR_nuclear_SMR",
+                "location": "NR",
+                "existing_capacity": 0,
+                "can_expand": false,
+                "fuel_consumption": 0
+            },
+            {
+                "id": "NER_nuclear_SMR",
+                "location": "NER",
+                "existing_capacity": 0,
+                "can_expand": false,
+                "fuel_consumption": 0
+            },
+            {
+                "id": "ER_nuclear_SMR",
+                "location": "ER",
+                "existing_capacity": 0,
+                "can_expand": false,
+                "fuel_consumption": 0
+            },
+            {
+                "id": "WR_nuclear_SMR",
+                "location": "WR",
+                "existing_capacity": 0,
+                "can_expand": false,
+                "fuel_consumption": 0
+            },
+            {
+                "id": "SR_nuclear_SMR",
+                "location": "SR",
+                "existing_capacity": 0,
+                "can_expand": false,
+                "fuel_consumption": 0
+            }
+        ]
+    }
+}

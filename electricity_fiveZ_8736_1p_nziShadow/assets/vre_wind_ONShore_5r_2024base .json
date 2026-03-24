@@ -1,0 +1,73 @@
+{
+    "VariableRenewablesWind": {
+        "type": "VRE",
+        "global_data": {
+            "elec_can_retire": false,
+            "elec_can_expand": false,                
+            "elec_constraints": {
+                    "MaxCapacityConstraint": false
+            },
+            "lifetime": 25,
+            "fixed_om_cost": 9510000,
+            "investment_cost": 65000000,
+            "variable_om_cost": 0
+        },
+        "instance_data": [
+            {
+                "id": "NR_onshore_wind",
+                "location": "NR",
+                "existing_capacity": 5301.4,
+                "availability": {
+                    "timeseries": {
+                        "header": "NR_onshore_wind",
+                        "path": "system/availability.csv"
+                    }
+                }
+            },
+            {
+                "id": "NER_onshore_wind",
+                "location": "NER",
+                "existing_capacity": 0,
+                "availability": {
+                    "timeseries": {
+                        "header": "NER_onshore_wind",
+                        "path": "system/availability.csv"
+                    }
+                }
+            },
+            {
+                "id": "ER_onshore_wind",
+                "location": "ER",
+                "existing_capacity":46,
+                "availability": {
+                    "timeseries": {
+                        "header": "ER_onshore_wind",
+                        "path": "system/availability.csv"
+                    }
+                }
+            },         
+            {
+                "id": "WR_onshore_wind",
+                "location": "WR",
+                "existing_capacity": 18661,
+                "availability": {
+                    "timeseries": {
+                        "header": "WR_onshore_wind",
+                        "path": "system/availability.csv"
+                    }
+                }
+            },
+            {
+                "id": "SR_onshore_wind",
+                "location": "SR",
+                "existing_capacity": 22161.3,
+                "availability": {
+                    "timeseries": {
+                        "header": "SR_onshore_wind",
+                        "path": "system/availability.csv"
+                    }
+                }
+            }
+        ]
+    }
+}
