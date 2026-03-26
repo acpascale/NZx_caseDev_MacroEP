@@ -7,10 +7,13 @@
             "elec_constraints": {
                     "MaxCapacityConstraint": false
             },
+            "#operationalParameters": "PIER2.0 --> ECT_OperationalInfo.csv & ECT_EfficiencyCostMaxAnnualUF.csv & ECT_EmissionDetails.csv & PhysicalCarrierEmissions.csv & PhysicalPrimaryCarriers.csv ::  Fuel consumption = 1/coversion efficiency ; emisison rate = ? ",
+            "#finance_currencySource": "Million Rupees, Source = PIER2.0 -> ECT_EfficiencyCostMaxAnnualUF.csv ; Investment cost = Fixed Annualized Capital Cost * Lifetime (ECT_Lifetime.csv) ; No Fixed O&M in PIER ; PIER costs for 1 GW Capacity all, Macro in MW",
+            "capacity_size": 1,
             "lifetime": 25,
-            "fixed_om_cost": 5440000,
-            "investment_cost": 36200000,
-            "variable_om_cost": 0
+            "fixed_om_cost": 0,
+            "variable_om_cost": 0,
+            "investment_cost": 135.9926464
         },
         "instance_data": [
             {
