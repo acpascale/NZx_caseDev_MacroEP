@@ -1,0 +1,172 @@
+{
+    "nodes": [
+        {
+            "type": "Electricity",
+            "global_data": {
+                "time_interval": "Electricity",
+                "constraints": {
+                    "MaxNonServedDemandConstraint": true,
+                    "MaxNonServedDemandPerSegmentConstraint": true,
+                    "BalanceConstraint": true
+                },
+                "max_nsd": [
+                    1
+                ],
+                "price_nsd": [
+                    1200000
+                ],
+                "#currecncy": "Million Rupees, Source -> Macro Default 50,000 USD * currency exchange"
+            },
+            "instance_data": [
+                {
+                    "id": "elec_NR",
+                    "location": "NR",
+                    "demand": {
+                        "timeseries": {
+                            "header": "elec_demand_NR_p20_2024",
+                            "path": "system/demand.csv"
+                        }
+                    }
+                },
+                {
+                    "id": "elec_NER",
+                    "location": "NER",
+                    "demand": {
+                        "timeseries": {
+                            "header": "elec_demand_NER_p20_2024",
+                            "path": "system/demand.csv"
+                        }
+                    }
+                },
+				{
+                    "id": "elec_ER",
+                    "location": "ER",
+                    "demand": {
+                        "timeseries": {
+                            "header": "elec_demand_ER_p20_2024",
+                            "path": "system/demand.csv"
+                        }
+                    }
+                },
+                {
+                    "id": "elec_WR",
+                    "location": "WR",
+                    "demand": {
+                        "timeseries": {
+                            "header": "elec_demand_WR_p20_2024",
+                            "path": "system/demand.csv"
+                        }
+                    }
+                },
+                {
+                    "id": "elec_SR",
+                    "location": "SR",
+                    "demand": {
+                        "timeseries": {
+                            "header": "elec_demand_SR_p20_2024",
+                            "path": "system/demand.csv"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "type": "NaturalGas",
+            "global_data": {
+                "time_interval": "NaturalGas"
+            },
+            "instance_data": [
+                {
+                    "id": "naturalgas_source",
+                    "#price_currencySource": "Million Rupees, Source = PIER2.0 -> PEC_Info.csv",
+                    "price": [
+                        24102
+                    ]
+                }
+            ]
+                    
+        },
+                {
+            "type": "Coal",
+            "global_data": {
+                "time_interval": "Coal"
+            },
+            "instance_data": [
+                {
+                    "id": "coal_source",
+                    "#price_currencySource": "Million Rupees, Source = PIER2.0 -> PEC_Info.csv",
+                    "price": [
+                        1156.373426
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Uranium",
+            "global_data": {
+                "time_interval": "Uranium"
+            },
+            "instance_data": [
+                {
+                    "id": "uranium_source",
+                    "#price_currencySource": "Million Rupees, Source = PIER2.0 -> ??",
+                    "price": [
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Biomass",
+            "global_data": {
+                "time_interval": "Biomass",
+                "constraints": {
+                    "BalanceConstraint": true
+                }
+            },
+            "instance_data": [
+                {
+                    "id": "biomass_source",
+                    "#price_currencySource": "Million Rupees, Source = PIER2.0 -> PEC_Info.csv, Note -> need to add BiomassWaste price... maybe 2 bins?",
+                    "price": [
+                        5683.253589
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Electricity",
+            "global_data": {
+                "time_interval": "Electricity"
+            },
+            "instance_data": [
+                {
+                    "id": "hydro_source"
+                }
+            ]
+        },
+        {
+            "type": "CO2",
+            "global_data": {
+                "time_interval": "CO2",                
+                "price_unmet_policy": {
+                    "CO2CapConstraint": 0
+                },
+                "#CO2CapConstraint": "x Rs per tonne is amount that model pays for every tCO2 over limit set in rhs_policy"
+            },
+            "instance_data": [
+                {
+                    "id": "co2_sink",
+                    "constraints": {
+                        "CO2CapConstraint": false
+                    },
+                    "rhs_policy": {
+                        "CO2CapConstraint": 100000
+                    },
+                    "#id": "name for uncontrolled CO2 emitted to air",
+                    "#CO2CapConstraint": "100,000 tpa whichmakes model pay price for every t CO2 over that limit"
+                }
+            ]
+        }        
+    ]
+}
