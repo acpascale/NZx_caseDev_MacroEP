@@ -12,7 +12,7 @@
                 "path": "settings/macro_settings.json"
             },
             "assets": {
-                "path": "assets/assets_p1"
+                "path": "assets"
             },
             "time_data": {
                 "path": "system/time_data.json"

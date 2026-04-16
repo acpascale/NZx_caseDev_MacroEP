@@ -73,7 +73,10 @@
         {
             "type": "NaturalGas",
             "global_data": {
-                "time_interval": "NaturalGas"
+                "time_interval": "NaturalGas",
+                "constraints": {
+                    "BalanceConstraint": false
+                }
             },
             "instance_data": [
                 {
@@ -89,7 +92,10 @@
                 {
             "type": "Coal",
             "global_data": {
-                "time_interval": "Coal"
+                "time_interval": "Coal",
+                "constraints": {
+                    "BalanceConstraint": false
+                }
             },
             "instance_data": [
                 {
@@ -104,12 +110,15 @@
         {
             "type": "Uranium",
             "global_data": {
-                "time_interval": "Uranium"
+                "time_interval": "Uranium",
+                "constraints": {
+                    "BalanceConstraint": false
+                }
             },
             "instance_data": [
                 {
                     "id": "uranium_source",
-                    "#price_currencySource": "Million Rupees, Source = PIER2.0 -> made zero to match PIER2.0 handling",
+                    "#price_currencySource": "Million Rupees, Source = PIER2.0 -> ??",
                     "price": [
                         1
                     ]
@@ -121,7 +130,7 @@
             "global_data": {
                 "time_interval": "Biomass",
                 "constraints": {
-                    "BalanceConstraint": true
+                    "BalanceConstraint": false
                 }
             },
             "instance_data": [
@@ -137,7 +146,10 @@
         {
             "type": "Electricity",
             "global_data": {
-                "time_interval": "Electricity"
+                "time_interval": "Electricity",
+                "constraints": {
+                    "BalanceConstraint": false
+                }
             },
             "instance_data": [
                 {
@@ -148,7 +160,7 @@
         {
             "type": "CO2",
             "global_data": {
-                "time_interval": "CO2",                
+                "time_interval": "CO2",
                 "price_unmet_policy": {
                     "CO2CapConstraint": 0
                 },
@@ -158,7 +170,8 @@
                 {
                     "id": "co2_sink",
                     "constraints": {
-                        "CO2CapConstraint": false
+                        "CO2CapConstraint": false,
+                        "BalanceConstraint": false
                     },
                     "rhs_policy": {
                         "CO2CapConstraint": 100000
