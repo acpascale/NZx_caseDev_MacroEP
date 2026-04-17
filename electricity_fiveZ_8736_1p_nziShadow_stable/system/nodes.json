@@ -6,7 +6,8 @@
                 "time_interval": "Electricity",
                 "constraints": {
                     "MaxNonServedDemandConstraint": true,
-                    "MaxNonServedDemandPerSegmentConstraint": true
+                    "MaxNonServedDemandPerSegmentConstraint": true,
+                    "BalanceConstraint": true
                 },
                 "max_nsd": [
                     1
@@ -72,7 +73,10 @@
         {
             "type": "NaturalGas",
             "global_data": {
-                "time_interval": "NaturalGas"
+                "time_interval": "NaturalGas",
+                "constraints": {
+                    "BalanceConstraint": true
+                }
             },
             "instance_data": [
                 {
@@ -98,7 +102,10 @@
                 {
             "type": "Coal",
             "global_data": {
-                "time_interval": "Coal"
+                "time_interval": "Coal",
+                "constraints": {
+                    "BalanceConstraint": true
+                }
             },
             "instance_data": [
                 {
@@ -123,7 +130,10 @@
         {
             "type": "Uranium",
             "global_data": {
-                "time_interval": "Uranium"
+                "time_interval": "Uranium",
+                "constraints": {
+                    "BalanceConstraint": true
+                }
             },
             "instance_data": [
                 {
@@ -148,7 +158,10 @@
         {
             "type": "Biomass",
             "global_data": {
-                "time_interval": "Biomass"
+                "time_interval": "Biomass",
+                "constraints": {
+                    "BalanceConstraint": true
+                }
             },
             "instance_data": [
                 {
@@ -188,25 +201,25 @@
             "type": "CO2",
             "global_data": {
                 "time_interval": "CO2",
-                "price_unmet_policy": {
-                    "CO2CapConstraint": 0
-                },
-                "#CO2CapConstraint": "x Rs per tonne is amount that model pays for every tCO2 over limit set in rhs_policy",
                 "constraints": {
                     "BalanceConstraint": false
+                },
+                "price_unmet_policy": {
+                    "CO2CapConstraint": 0,
+                    "#CO2CapConstraint": "x Rs per tonne is amount that model pays for every tCO2 over limit set in rhs_policy"
                 }
             },
             "instance_data": [
                 {
                     "id": "co2_sink",
+                    "#id": "name for uncontrolled CO2 emitted to air",
                     "constraints": {
                         "CO2CapConstraint": false
                     },
                     "rhs_policy": {
-                        "CO2CapConstraint": 100000
-                    },
-                    "#id": "name for uncontrolled CO2 emitted to air",
-                    "#CO2CapConstraint": "100,000 tpa whichmakes model pay price for every t CO2 over that limit"
+                        "CO2CapConstraint": 100000,
+                        "#CO2CapConstraint": "100,000 tpa whichmakes model pay price for every t CO2 over that limit"
+                    }
                 }
             ]
         }        

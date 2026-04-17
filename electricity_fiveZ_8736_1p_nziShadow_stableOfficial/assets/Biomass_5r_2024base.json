@@ -1,0 +1,80 @@
+{
+    "ThermalPowerNaturalGas": {
+        "type": "ThermalPower",
+        "global_data": {
+                "timedata": "Biomass",
+                "fuel_commodity": "Biomass",
+                "fuel_start_vertex": "biomass_source",
+                "co2_sink": "co2_sink",
+                "can_retire": false,
+                "can_expand": true,
+                "elec_constraints": {
+                    "CapacityConstraint": true,
+                    "RampingLimitConstraint": true,
+                    "MinFlowConstraint": true,
+                    "MinUpTimeConstraint": true,
+                    "MinDownTimeConstraint": true,
+                    "MinCapacityConstraint": true,
+                    "MaxCapacityConstraint": true
+                },
+                "#operationalParameters": "PIER2.0 --> ECT_OperationalInfo.csv & ECT_EfficiencyCostMaxAnnualUF.csv & ECT_EmissionDetails.csv & PhysicalCarrierEmissions.csv & PhysicalPrimaryCarriers.csv ::  Fuel consumption = 1/coversion efficiency ; emisison rate = emissions per physical unit / energy density * fuel consumption ",
+                "emission_rate": 0.436860506,
+                "fuel_consumption": 4.1868,
+                "uc": true,
+                "electricity_consumption": 0.1,
+                "ramp_up_fraction": 0.06,
+                "ramp_down_fraction": 0.06,                
+                "#finance_source": "Million Rupees, Source = PIER2.0 -> ECT_EfficiencyCostMaxAnnualUF.xlsx ; PIER costs for 1 GW Capacity all, Macro in MW",
+                "#common_finance": "No Fixed O&M in PIER ; Var O&M is PIER cost per tonne / conversion efficiency",
+                "#legacy&new_finance": "Annualized Investment cost = Legacy/new Fixed Annualized Capital Cost * 1e3 ",
+                "capacity_size": 1,
+                "lifetime": 20,
+                "fixed_om_cost": 0,
+                "variable_om_cost": 0,
+                "annualized_investment_cost": 7713457.24,                           
+                "availability": {
+                    "timeseries": {
+                        "header": "EG_BIOMASS_ALL_ALL",
+                        "path": "system/availability_PIER8760_5period.csv"
+                    }
+                } 
+        },
+        "instance_data": [
+            {
+                "id": "NR_biomass_legacy",
+                "location": "NR",                
+                "existing_capacity": 0,
+                "min_capacity": 3498.17,
+                "max_capacity": 3498.17
+            },
+            {
+                "id": "NER_biomass_legacy",
+                "location": "NER",
+                "existing_capacity": 0,
+                "min_capacity": 16.8,
+                "max_capacity": 16.8
+            },
+            {
+                "id": "ER_biomass_legacy",
+                "location": "ER",
+                "existing_capacity": 0,
+                "min_capacity": 583.64,
+                "max_capacity": 583.64
+            },
+            {
+                "id": "WR_biomass_legacy",
+                "location": "WR",
+                "existing_capacity": 0,
+                "min_capacity": 3297.7,
+                "max_capacity": 3297.7
+            },
+            {
+                "id": "SR_biomass_legacy",
+                "location": "SR",
+                "existing_capacity": 0,
+                "min_capacity": 3894.75,
+                "max_capacity": 3894.75
+            }
+        ]
+    }
+}
