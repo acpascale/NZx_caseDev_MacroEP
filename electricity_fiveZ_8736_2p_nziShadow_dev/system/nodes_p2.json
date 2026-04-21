@@ -1,0 +1,228 @@
+{
+    "nodes": [
+        {
+            "type": "Electricity",
+            "global_data": {
+                "time_interval": "Electricity",                
+                "#BalanceConstraint": "Even though the default BalanceConstraint value changed to true in March/April 2026, we use explicit definitions for each node in this file for transparency and clarity.",
+                "constraints": {
+                    "MaxNonServedDemandConstraint": true,
+                    "MaxNonServedDemandPerSegmentConstraint": true,
+                    "BalanceConstraint": true                
+                },
+                "max_nsd": [
+                    1
+                ],
+                "price_nsd": [
+                    1200000
+                ],
+                "#currecncy": "Million Rupees, Source -> Macro Default 50,000 USD * currency exchange"
+            },
+            "instance_data": [
+                {
+                    "id": "elec_NR",
+                    "location": "NR",
+                    "demand": {
+                        "timeseries": {
+                            "header": "elec_demand_NR_p20_2024",
+                            "path": "system/demand.csv"
+                        }
+                    }
+                },
+                {
+                    "id": "elec_NER",
+                    "location": "NER",
+                    "demand": {
+                        "timeseries": {
+                            "header": "elec_demand_NER_p20_2024",
+                            "path": "system/demand.csv"
+                        }
+                    }
+                },
+				{
+                    "id": "elec_ER",
+                    "location": "ER",
+                    "demand": {
+                        "timeseries": {
+                            "header": "elec_demand_ER_p20_2024",
+                            "path": "system/demand.csv"
+                        }
+                    }
+                },
+                {
+                    "id": "elec_WR",
+                    "location": "WR",
+                    "demand": {
+                        "timeseries": {
+                            "header": "elec_demand_WR_p20_2024",
+                            "path": "system/demand.csv"
+                        }
+                    }
+                },
+                {
+                    "id": "elec_SR",
+                    "location": "SR",
+                    "demand": {
+                        "timeseries": {
+                            "header": "elec_demand_SR_p20_2024",
+                            "path": "system/demand.csv"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "type": "NaturalGas",
+            "global_data": {
+                "time_interval": "NaturalGas",
+                "constraints": {
+                    "BalanceConstraint": true
+                }
+            },
+            "instance_data": [
+                {
+                    "id": "naturalgas_source",
+                    "#price_currencySource": "Million Rupees, Source = PIER2.0 -> PEC_Info.csv",
+                    "supply": {
+                        "segment1": {
+                            "price": [
+                                24102
+                            ],
+                            "min": [
+                                0
+                            ],
+                            "max": [
+                                Infinity
+                            ]
+                        }
+                    }
+                }
+            ]
+                    
+        },
+                {
+            "type": "Coal",
+            "global_data": {
+                "time_interval": "Coal",
+                "constraints": {
+                    "BalanceConstraint": true
+                }
+            },
+            "instance_data": [
+                {
+                    "id": "coal_source",
+                    "#price_currencySource": "Million Rupees, Source = PIER2.0 -> PEC_Info.csv",
+                    "supply": {
+                        "segment1": {
+                            "price": [
+                                1156.373426
+                            ],
+                            "min": [
+                                0
+                            ],
+                            "max": [
+                                Infinity
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "type": "Uranium",
+            "global_data": {
+                "time_interval": "Uranium",
+                "constraints": {
+                    "BalanceConstraint": true
+                }
+            },
+            "instance_data": [
+                {
+                    "id": "uranium_source",
+                    "#price_currencySource": "Million Rupees, Source = TBD, PIER2.0 places no cost on Uranium",
+                    "supply": {
+                        "segment1": {
+                            "price": [
+                                1
+                            ],
+                            "min": [
+                                0
+                            ],
+                            "max": [
+                                Infinity
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "type": "Biomass",
+            "global_data": {
+                "time_interval": "Biomass",
+                "constraints": {
+                    "BalanceConstraint": true
+                }
+            },
+            "instance_data": [
+                {
+                    "id": "biomass_source",
+                    "#price_currencySource": "Million Rupees, Source = PIER2.0 -> PEC_Info.csv, Note -> need to add BiomassWaste price... maybe 2 bins?",
+                    "supply": {
+                        "segment1": {
+                            "price": [
+                                5683.253589
+                            ],
+                            "min": [
+                                0
+                            ],
+                            "max": [
+                                Infinity
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "type": "Electricity",
+            "global_data": {
+                "time_interval": "Electricity",
+                "#BalanceConstraint": "This is defined as false, as Macro we are not interested in tracking water supply yet, and the hydropower asset is also not ready to do so.",
+                "constraints": {
+                    "BalanceConstraint": false
+                }
+            },
+            "instance_data": [
+                {
+                    "id": "hydro_source"
+                }
+            ]
+        },
+        {
+            "type": "CO2",
+            "global_data": {
+                "time_interval": "CO2"
+            },
+            "instance_data": [
+                {
+                    "id": "co2_sink",
+                    "#id": "name for uncontrolled CO2 emitted to air",
+                    "#CO2CapConstraint_limit": "100,000 tpa in rhs_policy is the value above which the model pays a price for every t CO2 over that limit",
+                    "#CO2CapConstraint_price": "x Rs per tonne in price unmet policy is amount that model pays for every tCO2 over limit set in rhs_policy",
+                    "#BalanceConstraint": "This is defined as false, as CO2 arises from combustion of other resources, and Macro already explicitly tracks its supply.",
+                    "constraints": {
+                        "BalanceConstraint": false,
+                        "CO2CapConstraint": false
+                    },
+                    "rhs_policy": {
+                        "CO2CapConstraint": 100000
+                    },
+                    "price_unmet_policy": {
+                        "CO2CapConstraint": 0
+                    }
+                }
+            ]
+        }        
+    ]
+}

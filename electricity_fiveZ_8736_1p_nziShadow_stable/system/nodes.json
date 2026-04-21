@@ -200,25 +200,24 @@
         {
             "type": "CO2",
             "global_data": {
-                "time_interval": "CO2",
-                "constraints": {
-                    "BalanceConstraint": false
-                },
-                "price_unmet_policy": {
-                    "CO2CapConstraint": 0,
-                    "#CO2CapConstraint": "x Rs per tonne is amount that model pays for every tCO2 over limit set in rhs_policy"
-                }
+                "time_interval": "CO2"
             },
             "instance_data": [
                 {
                     "id": "co2_sink",
                     "#id": "name for uncontrolled CO2 emitted to air",
+                    "#CO2CapConstraint_limit": "100,000 tpa in rhs_policy is the value above which the model pays a price for every t CO2 over that limit",
+                    "#CO2CapConstraint_price": "x Rs per tonne in price unmet policy is amount that model pays for every tCO2 over limit set in rhs_policy",
+                    "#BalanceConstraint": "This is defined as false, as CO2 arises from combustion of other resources, and Macro already explicitly tracks its supply.",
                     "constraints": {
+                        "BalanceConstraint": false,
                         "CO2CapConstraint": false
                     },
                     "rhs_policy": {
-                        "CO2CapConstraint": 100000,
-                        "#CO2CapConstraint": "100,000 tpa whichmakes model pay price for every t CO2 over that limit"
+                        "CO2CapConstraint": 100000
+                    },
+                    "price_unmet_policy": {
+                        "CO2CapConstraint": 0
                     }
                 }
             ]

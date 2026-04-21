@@ -1,0 +1,109 @@
+{
+    "ElectricityStorage": [
+        {
+            "type": "Battery",
+            "global_data": {
+                "#description": "Legacy infrastructure in India 2023. Source = PIER2.0 -> EST_Parameters.xlsx",
+                "discharge_can_expand": true,
+                "discharge_can_retire": false,
+                "storage_can_retire": false,
+                "discharge_constraints": {
+                    "CapacityConstraint": true,
+                    "MaxCapacityConstraint": true,
+                    "MinCapacityConstraint": true,
+                    "StorageDischargeLimitConstraint": true
+                },
+                "storage_constraints": {
+                    "StorageCapacityConstraint": true,
+                    "StorageSymmetricCapacityConstraint": true,
+                    "BalanceConstraint": true
+                },
+                "discharge_efficiency": 0.866,
+                "charge_efficiency": 0.866,
+                "discharge_max_flow_fraction": 0.166666667,
+                "#finance_source": "Million Rupees, Source = PIER2.0 -> EST_Parameters.xlsx",
+                "#common_finance": "No Fixed O&M in PIER ; Var O&M is PIER cost per tonne / conversion efficiency",
+                "#legacy&new_finance": "Annualized Investment cost = Legacy/new Fixed Annualized Capital Cost * 1e3 ",
+                "#capacityNotes": "Discharge capacity is provided in GWh * 1e3 = MWh",
+                "discharge_capacity_size": 1,
+                "#lifetime": "Current lifetime hack for aggregate legacy industry is half of lifetime of new infrastructure. Balance of lifetime from PIER.",
+                "lifetime": 20,
+                "discharge_fixed_om_cost": 0,
+                "variable_om_cost": 0,
+                "discharge_annualized_investment_cost": 1900130.322
+            },
+            "instance_data": [
+                {
+                    "id": "NR_pumpedhydro_legacy",
+                    "location": "NR",
+                    "discharge_existing_capacity": 0,
+                    "discharge_min_capacity": 0,
+                    "discharge_max_capacity": 0
+                },
+                {
+                    "id": "NER_pumpedhydro_legacy",
+                    "location": "NER",
+                    "storage_existing_capacity": 0,
+                    "discharge_min_capacity": 0,
+                    "discharge_max_capacity": 0
+                },
+                {
+                    "id": "ER_pumpedhydro_legacy",
+                    "location": "ER",
+                    "storage_existing_capacity": 0,
+                    "discharge_min_capacity": 5400,
+                    "discharge_max_capacity": 5400
+                },
+                {
+                    "id": "WR_pumpedhydro_legacy",
+                    "location": "WR",
+                    "storage_existing_capacity": 0,
+                    "discharge_min_capacity": 11004,
+                    "discharge_max_capacity": 11004
+                },
+                {
+                    "id": "SR_pumpedhydro_legacy",
+                    "location": "SR",
+                    "storage_existing_capacity": 0,
+                    "discharge_min_capacity": 12034,
+                    "discharge_max_capacity": 12034
+                },
+                {
+                    "id": "NR_pumpedhydro",
+                    "location": "NR",
+                    "discharge_existing_capacity": 0,
+                    "discharge_min_capacity": 0,
+                    "discharge_max_capacity": 0
+                },
+                {
+                    "id": "NER_pumpedhydro",
+                    "location": "NER",
+                    "storage_existing_capacity": 0,
+                    "discharge_min_capacity": 0,
+                    "discharge_max_capacity": 0
+                },
+                {
+                    "id": "ER_pumpedhydro",
+                    "location": "ER",
+                    "storage_existing_capacity": 0,
+                    "discharge_min_capacity": 0,
+                    "discharge_max_capacity": 0
+                },
+                {
+                    "id": "WR_pumpedhydro",
+                    "location": "WR",
+                    "storage_existing_capacity": 0,
+                    "discharge_min_capacity": 0,
+                    "discharge_max_capacity": 0
+                },
+                {
+                    "id": "SR_pumpedhydro",
+                    "location": "SR",
+                    "storage_existing_capacity": 0,
+                    "discharge_min_capacity": 0,
+                    "discharge_max_capacity": 0
+                }
+            ]
+        }
+    ]
+}

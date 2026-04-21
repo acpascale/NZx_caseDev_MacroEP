@@ -1,0 +1,172 @@
+{
+    "ElectricityTransmission": {
+        "type": "TransmissionLink",
+        "global_data": {
+            "#description": "Legacy additional infrastructure in India 2024. Source = PIER2.0 -> ECT_CapAddBounds.xlsx",
+            "commodity": "Electricity",
+            "transmission_constraints": {
+                "MaxCapacityConstraint": true,
+                "MinCapacityConstraint": true
+            },
+            "lifetime": 50,
+            "investment_cost": 509.94,
+            "loss_fraction": 0.035,
+            "can_retire": false,
+            "can_expand": true
+        },
+        "instance_data": [
+            {
+                "id": "NR_to_ER",
+                "commodity": "Electricity",
+                "transmission_origin": "elec_NR",
+                "transmission_dest": "elec_ER",
+                "#distance": "Needs to be researched and set. 500 is a placeholder.",
+                "distance": 500,
+                "existing_capacity": 0,
+                "min_capacity": 0,
+                "max_capacity": 0
+            },
+            {
+                "id": "NR_to_WR",
+                "commodity": "Electricity",
+                "transmission_origin": "elec_NR",
+                "transmission_dest": "elec_WR",
+                "#distance": "Needs to be researched and set. 500 is a placeholder.",
+                "distance": 500,
+                "existing_capacity": 0,
+                "min_capacity": 0,
+                "max_capacity": 0
+            },
+            {
+                "id": "ER_to_NER",
+                "commodity": "Electricity",
+                "transmission_origin": "elec_ER",
+                "transmission_dest": "elec_NER",
+                "#distance": "Needs to be researched and set. 500 is a placeholder.",
+                "distance": 500,
+                "existing_capacity": 0,
+                "min_capacity": 90,
+                "max_capacity": 90
+                
+            },
+            {
+                "id": "WR_to_ER",
+                "commodity": "Electricity",
+                "transmission_origin": "elec_WR",
+                "transmission_dest": "elec_ER",
+                "#distance": "Needs to be researched and set. 500 is a placeholder.",
+                "distance": 500,
+                "existing_capacity": 0,
+                "min_capacity": 0,
+                "max_capacity": 0
+                
+            },
+            {
+                "id": "WR_to_SR",
+                "commodity": "Electricity",
+                "transmission_origin": "elec_WR",
+                "transmission_dest": "elec_SR",
+                "#distance": "Needs to be researched and set. 500 is a placeholder.",
+                "distance": 500,
+                "existing_capacity": 0,
+                "min_capacity": 0,
+                "max_capacity": 0
+                
+            },
+            {
+                "id": "ER_to_SR",
+                "commodity": "Electricity",
+                "transmission_origin": "elec_ER",
+                "transmission_dest": "elec_SR",
+                "#distance": "Needs to be researched and set. 500 is a placeholder.",
+                "distance": 500,
+                "existing_capacity": 0,
+                "min_capacity": 0,
+                "max_capacity": 0
+                
+            },
+            {
+                "id": "NR_to_NER",
+                "commodity": "Electricity",
+                "transmission_origin": "elec_NR",
+                "transmission_dest": "elec_NER",
+                "#distance": "Needs to be researched and set. 500 is a placeholder.",
+                "distance": 500,
+                "existing_capacity": 0,
+                "min_capacity": 0,
+                "max_capacity": 0
+                
+            },
+            {
+                "id": "NR_to_ER_legacy",
+                "commodity": "Electricity",
+                "transmission_origin": "elec_NR",
+                "transmission_dest": "elec_ER",
+                "#distance": "Needs to be researched and set. 500 is a placeholder.",
+                "distance": 500,
+                "min_capacity": 0,
+                "max_capacity": 22530
+            },
+            {
+                "id": "NR_to_WR_legacy",
+                "commodity": "Electricity",
+                "transmission_origin": "elec_NR",
+                "transmission_dest": "elec_WR",
+                "#distance": "Needs to be researched and set. 500 is a placeholder.",
+                "distance": 500,
+                "min_capacity": 0,
+                "max_capacity": 36720
+            },
+            {
+                "id": "ER_to_NER_legacy",
+                "commodity": "Electricity",
+                "transmission_origin": "elec_ER",
+                "transmission_dest": "elec_NER",
+                "#distance": "Needs to be researched and set. 500 is a placeholder.",
+                "distance": 500,
+                "min_capacity": 0,
+                "max_capacity": 2860
+            },
+            {
+                "id": "WR_to_ER_legacy",
+                "commodity": "Electricity",
+                "transmission_origin": "elec_WR",
+                "transmission_dest": "elec_ER",
+                "#distance": "Needs to be researched and set. 500 is a placeholder.",
+                "distance": 500,
+                "min_capacity": 0,
+                "max_capacity": 21190
+            },
+            {
+                "id": "WR_to_SR_legacy",
+                "commodity": "Electricity",
+                "transmission_origin": "elec_WR",
+                "transmission_dest": "elec_SR",
+                "#distance": "Needs to be researched and set. 500 is a placeholder.",
+                "distance": 500,
+                "min_capacity": 0,
+                "max_capacity": 18120
+            },
+            {
+                "id": "ER_to_SR_legacy",
+                "commodity": "Electricity",
+                "transmission_origin": "elec_ER",
+                "transmission_dest": "elec_SR",
+                "#distance": "Needs to be researched and set. 500 is a placeholder.",
+                "distance": 500,
+                "min_capacity": 0,
+                "max_capacity": 7830
+            },
+            {
+                "id": "NR_to_NER_legacy",
+                "commodity": "Electricity",
+                "transmission_origin": "elec_NR",
+                "transmission_dest": "elec_NER",
+                "#distance": "Needs to be researched and set. 500 is a placeholder.",
+                "distance": 500,
+                "min_capacity": 0,
+                "max_capacity": 3000   
+            }
+        ]
+    }
+}

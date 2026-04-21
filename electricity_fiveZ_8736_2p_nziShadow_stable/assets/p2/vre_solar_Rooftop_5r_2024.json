@@ -1,0 +1,151 @@
+{
+    "VariableRenewablesSolar": {
+        "type": "VRE",
+        "global_data": {
+            "#description": "Legacy additional infrastructure in India 2024. Source = PIER2.0 -> ECT_CapAddBounds.xlsx",
+            "elec_can_retire": false,
+            "elec_can_expand": true,               
+            "elec_constraints": {                
+                    "CapacityConstraint": true,
+                    "MinCapacityConstraint": true,
+                    "MaxCapacityConstraint": true
+            },
+            "#operationalParameters": "PIER2.0 --> ECT_OperationalInfo.csv & ECT_EfficiencyCostMaxAnnualUF.csv & ECT_EmissionDetails.csv & PhysicalCarrierEmissions.csv & PhysicalPrimaryCarriers.csv ::  Fuel consumption = 1/coversion efficiency ; emisison rate = ? ",
+            "#finance_source": "Million Rupees, Source = PIER2.0 -> ECT_EfficiencyCostMaxAnnualUF.xlsx ; PIER costs for 1 GW Capacity all, Macro in MW",
+            "#common_finance": "No Fixed O&M in PIER ; Var O&M is PIER cost per tonne / conversion efficiency",
+            "#legacy&new_finance": "Annualized Investment cost = Legacy/new Fixed Annualized Capital Cost * 1e3 ",
+            "capacity_size": 1,
+            "lifetime": 25,
+            "fixed_om_cost": 0,
+            "variable_om_cost": 0,
+            "annualized_investment_cost": 5542187.695
+        },
+        "instance_data": [
+            {
+                "id": "NR_solar_RT",
+                "location": "NR",
+                "existing_capacity": 0,
+                "min_capacity": 766,
+                "max_capacity": 766,
+                "availability": {
+                    "timeseries": {
+                        "header": "EG_SOLARRF_2024_NR",
+                        "path": "system/availability_PIER8760_5period.csv"
+                    }
+                }
+            },
+            {
+                "id": "NER_solar_RT",
+                "location": "NER",
+                "existing_capacity": 0,
+                "min_capacity": 8,
+                "max_capacity": 8,
+                "availability": {
+                    "timeseries": {
+                        "header": "EG_SOLARRF_2024_NER",
+                        "path": "system/availability_PIER8760_5period.csv"
+                    }
+                }
+            },
+            {
+                "id": "ER_solar_RT",
+                "location": "ER",
+                "existing_capacity": 0,
+                "min_capacity": 138,
+                "max_capacity": 138,
+                "availability": {
+                    "timeseries": {
+                        "header": "EG_SOLARRF_2024_ER",
+                        "path": "system/availability_PIER8760_5period.csv"
+                    }
+                }
+            },         
+            {
+                "id": "WR_solar_RT",
+                "location": "WR",
+                "existing_capacity": 0,
+                "min_capacity": 1704,
+                "max_capacity": 1704,
+                "availability": {
+                    "timeseries": {
+                        "header": "EG_SOLARRF_2024_WR",
+                        "path": "system/availability_PIER8760_5period.csv"
+                    }
+                }
+            },
+            {
+                "id": "SR_solar_RT",
+                "location": "SR",
+                "existing_capacity": 0,
+                "min_capacity": 618,
+                "max_capacity": 618,
+                "availability": {
+                    "timeseries": {
+                        "header": "EG_SOLARRF_2024_SR",
+                        "path": "system/availability_PIER8760_5period.csv"
+                    }
+                }
+            },
+            {
+                "id": "NR_solar_RT_legacy",
+                "location": "NR",
+                "min_capacity": 0,
+                "max_capacity": 2666.3,
+                "availability": {
+                    "timeseries": {
+                        "header": "EG_SOLARRF_2024_NR",
+                        "path": "system/availability_PIER8760_5period.csv"
+                    }
+                }
+            },
+            {
+                "id": "NER_solar_RT_legacy",
+                "location": "NER",
+                "min_capacity": 0,
+                "max_capacity": 67.6,
+                "availability": {
+                    "timeseries": {
+                        "header": "EG_SOLARRF_2024_NER",
+                        "path": "system/availability_PIER8760_5period.csv"
+                    }
+                }
+            },
+            {
+                "id": "ER_solar_RT_legacy",
+                "location": "ER",
+                "min_capacity": 0,
+                "max_capacity": 2000,
+                "availability": {
+                    "timeseries": {
+                        "header": "EG_SOLARRF_2024_ER",
+                        "path": "system/availability_PIER8760_5period.csv"
+                    }
+                }
+            },         
+            {
+                "id": "WR_solar_RT_legacy",
+                "location": "WR",
+                "min_capacity": 0,
+                "max_capacity": 4503.4,
+                "availability": {
+                    "timeseries": {
+                        "header": "EG_SOLARRF_2024_WR",
+                        "path": "system/availability_PIER8760_5period.csv"
+                    }
+                }
+            },
+            {
+                "id": "SR_solar_RT_legacy",
+                "location": "SR",
+                "min_capacity": 0,
+                "max_capacity": 2030.8,
+                "availability": {
+                    "timeseries": {
+                        "header": "EG_SOLARRF_2024_SR",
+                        "path": "system/availability_PIER8760_5period.csv"
+                    }
+                }
+            }
+        ]
+    }
+}
