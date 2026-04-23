@@ -9,7 +9,10 @@
                 "MinCapacityConstraint": true
             },
             "lifetime": 50,
-            "investment_cost": 509.94,
+            "#annualized_investment_cost": "PIER2.0 does not attach investment costs to transmission.",
+            "annualized_investment_cost": 0,
+            "#capital_recovery_period": "Added in order to carry annualized_investment_cost into cost accounting of future periods",
+            "##capital_recovery_period": 50,
             "loss_fraction": 0.035,
             "can_retire": false,
             "can_expand": true

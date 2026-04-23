@@ -11,8 +11,10 @@
             },
             "#lifetime": "Current lifetime hack for aggregate legacy industry is half of lifetime of new infrastructure. To be updated using PIER or other.",
             "lifetime": 25,
-            "#annualized_investment_cost": "It is unclear in PIER2.0 whether the costs are annualized or overnight -> EC_Transfers.xlsx ; and how they port to Macro (yet)",
-            "annualized_investment_cost": 509.946,
+            "#annualized_investment_cost": "PIER2.0 does not attach investment costs to transmission.",
+            "annualized_investment_cost": 0,
+            "#capital_recovery_period": "Added in order to carry annualized_investment_cost into cost accounting of future periods",
+            "##capital_recovery_period": 25, 
             "loss_fraction": 0.035,
             "can_retire": false,
             "can_expand": true

@@ -1,7 +1,7 @@
 # Case development repository for modelling net-zero transitions in Macro and energyPATHWAYS models
 
 ## (case) electricity_fiveZ_8736_Xp_nziShadow_*
-Electricity-only, 5 zone, runs over 52 sub-periods * 168 hours each = 8736 hours, runs for X planning period (2024), 
+Electricity-only, 5 zone, runs over 52 sub-periods * 168 hours each = 8736 hours, runs for X planning periods, 
 
 Data source: [1] PIER2.0 demand and supply model at https://zenodo.org/records/18043483.
 
