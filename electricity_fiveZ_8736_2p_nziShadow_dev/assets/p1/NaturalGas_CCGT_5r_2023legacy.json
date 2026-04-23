@@ -20,7 +20,7 @@
                     "MaxCapacityConstraint": true
                 },
                 "#operationalParameters": "PIER2.0 --> ECT_OperationalInfo.csv & ECT_EfficiencyCostMaxAnnualUF.csv & ECT_EmissionDetails.csv & PhysicalCarrierEmissions.csv & PhysicalPrimaryCarriers.csv ::  Fuel consumption = 1/coversion efficiency ; emisison rate = ? ",
-                "emission_rate": 0.239566709,
+                "emission_rate": 0.283109905,
                 "fuel_consumption": 2.472538003,
                 "uc": true,
                 "electricity_consumption": 0.02,

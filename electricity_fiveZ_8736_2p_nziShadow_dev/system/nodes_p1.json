@@ -20,8 +20,7 @@
             },
             "instance_data": [
                 {
-                    "id": "elec_NR",
-                    "location": "NR",
+                    "id": "load_NR",
                     "demand": {
                         "timeseries": {
                             "header": "elec_demand_NR_p20_2024",
@@ -30,8 +29,7 @@
                     }
                 },
                 {
-                    "id": "elec_NER",
-                    "location": "NER",
+                    "id": "load_NER",
                     "demand": {
                         "timeseries": {
                             "header": "elec_demand_NER_p20_2024",
@@ -40,8 +38,7 @@
                     }
                 },
 				{
-                    "id": "elec_ER",
-                    "location": "ER",
+                    "id": "load_ER",
                     "demand": {
                         "timeseries": {
                             "header": "elec_demand_ER_p20_2024",
@@ -50,8 +47,7 @@
                     }
                 },
                 {
-                    "id": "elec_WR",
-                    "location": "WR",
+                    "id": "load_WR",
                     "demand": {
                         "timeseries": {
                             "header": "elec_demand_WR_p20_2024",
@@ -60,14 +56,33 @@
                     }
                 },
                 {
-                    "id": "elec_SR",
-                    "location": "SR",
+                    "id": "load_SR",
                     "demand": {
                         "timeseries": {
                             "header": "elec_demand_SR_p20_2024",
                             "path": "system/demand.csv"
                         }
                     }
+                },
+                {
+                    "id": "elec_NR",
+                    "location": "NR"
+                },
+                {
+                    "id": "elec_NER",
+                    "location": "NER"
+                },
+				{
+                    "id": "elec_ER",
+                    "location": "ER"
+                },
+                {
+                    "id": "elec_WR",
+                    "location": "WR"
+                },
+                {
+                    "id": "elec_SR",
+                    "location": "SR"
                 }
             ]
         },

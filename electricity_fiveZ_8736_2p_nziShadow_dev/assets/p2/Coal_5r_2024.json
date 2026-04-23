@@ -19,8 +19,8 @@
                     "MaxCapacityConstraint": true
                 },
                 "#operationalParameters": "PIER2.0 --> ECT_OperationalInfo.csv & ECT_EfficiencyCostMaxAnnualUF.csv & ECT_EmissionDetails.csv & PhysicalCarrierEmissions.csv & PhysicalPrimaryCarriers.csv ::  Fuel consumption = 1/coversion efficiency ; emisison rate = emissions per physical unit / energy density * fuel consumption ",
-                "emission_rate": 0.6,
-                "fuel_consumption": 2.62,
+                "emission_rate": 0.482479156,
+                "fuel_consumption": 2.624891001,
                 "uc": true,
                 "electricity_consumption": 0.066,
                 "ramp_up_fraction": 0.3,
