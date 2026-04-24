@@ -18,9 +18,11 @@ A summary of (evolving) model inputs drawn from PIER2.0 [1] can be found in the 
 This model will be ported to a multiperiod model during the first half of 2026.
 
 ## Activity
+24 April 2026:
+        Attempt to change structure of NG nodes to handle both domestic and import supply has led to a problem with ng supply.
 23 April 2026:
         Updated emission rates for Coal and Natural gas to match PIER using results... but still need to derive them correctly.
-        Added a link between the power coming in from Supply and inter-regional transmission @ elec_^R, and the load which has been renamed load_^R, to serve as a distribution network with losses specified in PIER. There is now too much loss in the electricity system (so too much generation), and many resources overproduce as compared to PIER.
+        Added a link between the power reaching a region's electricity busbar (elec_^R), and the region's load (load_^R). This OneWay link has been added to model the region's distribution network, and has been seeded with losses specified in PIER. 
 21 April 2026: 
           (stable/stableOfficial) Fixed issues in stable Cases in repository to do with unrecognized variables in the constraint definition sections of the  nodes.json file. These were introduced in the repository update on the 17th. Note to self, do not rush to push changes without fully testing!
                 

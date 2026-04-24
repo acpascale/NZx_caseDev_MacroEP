@@ -197,8 +197,8 @@
                     "transmission_dest": "load_NR",
                     "#distance": "Needs to be researched and set. 500 is a placeholder. Losses  total or per x km",
                     "distance": 500, 
-                    "loss_fraction": 0.074653162,
-                    "#loss_fraction": "half of PIERs 0.149306323"
+                    "loss_fraction": 0.149306323,
+                    "#loss_fraction": "Taken from PIER -> EC_Transfers.csv"
                 },
                 {
                     "id": "NER_legacy_distribution",
@@ -207,8 +207,8 @@
                     "transmission_dest": "load_NER",
                     "#distance": "Needs to be researched and set. 500 is a placeholder. Not sure if it will be used in estimating losses. Is loss total or per x km",
                     "distance": 500, 
-                    "loss_fraction": 0.075772338,
-                    "#loss_fraction": "half of PIERs 0.151544675"
+                    "loss_fraction": 0.151544675,
+                    "#loss_fraction": "Taken from PIER -> EC_Transfers.csv"
                 },
                 {
                     "id": "ER_legacy_distribution",
@@ -217,8 +217,8 @@
                     "transmission_dest": "load_ER",
                     "#distance": "Needs to be researched and set. 500 is a placeholder. Not sure if it will be used in estimating losses. Is loss total or per x km",
                     "distance": 500, 
-                    "loss_fraction": 0.086835705,
-                    "#loss_fraction": "half of PIERs 0.17367141"
+                    "loss_fraction": 0.17367141,
+                    "#loss_fraction": "Taken from PIER -> EC_Transfers.csv"
                 },
                 {
                     "id": "WR_legacy_distribution",
@@ -227,8 +227,8 @@
                     "transmission_dest": "load_WR",
                     "#distance": "Needs to be researched and set. 500 is a placeholder. Not sure if it will be used in estimating losses. Is loss total or per x km",
                     "distance": 500, 
-                    "loss_fraction": 0.061290779,
-                    "#loss_fraction": "half of PIERs 0.122581557"
+                    "loss_fraction": 0.122581557,
+                    "#loss_fraction": "Taken from PIER -> EC_Transfers.csv"
                 },
                 {
                     "id": "SR_legacy_distribution",
@@ -237,8 +237,8 @@
                     "transmission_dest": "load_SR",
                     "#distance": "Needs to be researched and set. 500 is a placeholder. Not sure if it will be used in estimating losses. Is loss total or per x km",
                     "distance": 500, 
-                    "loss_fraction": 0.053228856,
-                    "#loss_fraction": "half of PIERs 0.106457711"
+                    "loss_fraction": 0.106457711,
+                    "#loss_fraction": "Taken from PIER -> EC_Transfers.csv"
                 }
             ]
         }

@@ -98,17 +98,17 @@
                 {
                     "id": "naturalgas_source",
                     "#price_currencySource": "Million Rupees, Source = PIER2.0 -> PEC_Info.csv",
+                    "#id": "seg1 = domestic, seg2 = import <_ PEC_ProdImpConstraints.csv , no taxes applied yet",
                     "supply": {
                         "segment1": {
-                            "price": [
-                                24102
-                            ],
-                            "min": [
-                                0
-                            ],
-                            "max": [
-                                Infinity
-                            ]
+                            "price": 23859.03078,
+                            "min": 0,
+                            "max": 33.648
+                        },
+                        "segment2": {
+                            "price": 54880.30558,
+                            "min": 0,
+                            "max": 200
                         }
                     }
                 }
