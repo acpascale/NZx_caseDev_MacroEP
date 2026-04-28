@@ -22,7 +22,6 @@
                 "emission_rate": 0.436860506,
                 "fuel_consumption": 4.1868,
                 "uc": true,
-                "electricity_consumption": 0.1,
                 "ramp_up_fraction": 0.06,
                 "ramp_down_fraction": 0.06,                
                 "#finance_source": "Million Rupees, Source = PIER2.0 -> ECT_EfficiencyCostMaxAnnualUF.xlsx ; PIER costs for 1 GW Capacity all, Macro in MW",
@@ -37,7 +36,7 @@
                 "##capital_recovery_period": 20,                         
                 "availability": {
                     "timeseries": {
-                        "header": "EG_BIOMASS_ALL_ALL",
+                        "header": "EG_BIOMASS_2024_ALL",
                         "path": "system/availability_PIER8760_5period.csv"
                     }
                 } 
@@ -82,31 +81,61 @@
                 "id": "NR_biomass_legacy",
                 "location": "NR",
                 "min_capacity": 0,
-                "max_capacity": 3355.17
+                "max_capacity": 3355.17,                         
+                "availability": {
+                    "timeseries": {
+                        "header": "EG_BIOMASS_2023_ALL",
+                        "path": "system/availability_PIER8760_5period.csv"
+                    }
+                } 
             },
             {
                 "id": "NER_biomass_legacy",
                 "location": "NER",
                 "min_capacity": 0,
-                "max_capacity": 15.8
+                "max_capacity": 15.8,                         
+                "availability": {
+                    "timeseries": {
+                        "header": "EG_BIOMASS_2023_ALL",
+                        "path": "system/availability_PIER8760_5period.csv"
+                    }
+                } 
             },
             {
                 "id": "ER_biomass_legacy",
                 "location": "ER",
                 "min_capacity": 0,
-                "max_capacity": 560.64
+                "max_capacity": 560.64,                         
+                "availability": {
+                    "timeseries": {
+                        "header": "EG_BIOMASS_2023_ALL",
+                        "path": "system/availability_PIER8760_5period.csv"
+                    }
+                } 
             },
             {
                 "id": "WR_biomass_legacy",
                 "location": "WR",
                 "min_capacity": 0,
-                "max_capacity": 3161.7
+                "max_capacity": 3161.7,                         
+                "availability": {
+                    "timeseries": {
+                        "header": "EG_BIOMASS_2023_ALL",
+                        "path": "system/availability_PIER8760_5period.csv"
+                    }
+                } 
             },
             {
                 "id": "SR_biomass_legacy",
                 "location": "SR",
                 "min_capacity": 0,
-                "max_capacity": 3734.75
+                "max_capacity": 3734.75,                         
+                "availability": {
+                    "timeseries": {
+                        "header": "EG_BIOMASS_2023_ALL",
+                        "path": "system/availability_PIER8760_5period.csv"
+                    }
+                } 
             }
         ]
     }

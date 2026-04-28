@@ -95,7 +95,7 @@
                 "max_capacity": 2666.3,
                 "availability": {
                     "timeseries": {
-                        "header": "EG_SOLARRF_2024_NR",
+                        "header": "EG_SOLARRF_2023_NR",
                         "path": "system/availability_PIER8760_5period.csv"
                     }
                 }
@@ -107,7 +107,7 @@
                 "max_capacity": 67.6,
                 "availability": {
                     "timeseries": {
-                        "header": "EG_SOLARRF_2024_NER",
+                        "header": "EG_SOLARRF_2023_NER",
                         "path": "system/availability_PIER8760_5period.csv"
                     }
                 }
@@ -119,7 +119,7 @@
                 "max_capacity": 2000,
                 "availability": {
                     "timeseries": {
-                        "header": "EG_SOLARRF_2024_ER",
+                        "header": "EG_SOLARRF_2023_ER",
                         "path": "system/availability_PIER8760_5period.csv"
                     }
                 }
@@ -131,7 +131,7 @@
                 "max_capacity": 4503.4,
                 "availability": {
                     "timeseries": {
-                        "header": "EG_SOLARRF_2024_WR",
+                        "header": "EG_SOLARRF_2023_WR",
                         "path": "system/availability_PIER8760_5period.csv"
                     }
                 }
@@ -143,7 +143,7 @@
                 "max_capacity": 2030.8,
                 "availability": {
                     "timeseries": {
-                        "header": "EG_SOLARRF_2024_SR",
+                        "header": "EG_SOLARRF_2023_SR",
                         "path": "system/availability_PIER8760_5period.csv"
                     }
                 }

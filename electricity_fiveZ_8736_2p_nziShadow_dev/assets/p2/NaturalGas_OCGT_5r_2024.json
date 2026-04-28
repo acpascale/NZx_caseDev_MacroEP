@@ -23,7 +23,6 @@
                 "emission_rate": 0.853456787,
                 "fuel_consumption": 3.562501604,
                 "uc": true,
-                "electricity_consumption": 0.01,
                 "ramp_up_fraction": 1,
                 "ramp_down_fraction": 1,
                 "#finance_source": "Million Rupees, Source = PIER2.0 -> ECT_EfficiencyCostMaxAnnualUF.xlsx ; PIER costs for 1 GW Capacity all, Macro in MW",
@@ -38,7 +37,7 @@
                 "##capital_recovery_period": 25,
                 "availability": {
                     "timeseries": {
-                        "header": "EG_OCGT_ALL_ALL",
+                        "header": "EG_OCGT_2024_ALL",
                         "path": "system/availability_PIER8760_5period.csv"
                     }
                 }        

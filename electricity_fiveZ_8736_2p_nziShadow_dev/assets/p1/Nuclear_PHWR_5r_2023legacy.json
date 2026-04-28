@@ -22,7 +22,6 @@
                 "emission_rate": 0,
                 "fuel_consumption": 1,
                 "uc": true,
-                "electricity_consumption": 0.108,
                 "ramp_up_fraction": 0.01,
                 "ramp_down_fraction": 0.01,
                 "min_up_time": 36,
@@ -40,7 +39,7 @@
                 "##capital_recovery_period": 20, 
                 "availability": {
                     "timeseries": {
-                        "header": "EG_PHWR_ALL_ALL",
+                        "header": "EG_PHWR_2023_ALL",
                         "path": "system/availability_PIER8760_5period.csv"
                     }
                 }

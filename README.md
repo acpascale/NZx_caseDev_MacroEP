@@ -18,6 +18,12 @@ A summary of (evolving) model inputs drawn from PIER2.0 [1] can be found in the 
 This model will be ported to a multiperiod model during the first half of 2026.
 
 ## Activity
+28 April 2026:
+        Updated Availabilities to be in MWh, converted from physical quantities in PIER to energy. 
+        Added in PIER2.0 self consumption for all generators. Check if excess columns slows down initial load of system data or run and by how much.
+        Check why unserved demand. Where is unserved demand as current plots match PIER2.0!? If moves loads back to main busbar? If bins back to infinity? 
+27 April 2026:
+        Problem from Friday 24th was the location of comment, and (potentially) not enough resource. Segment specification cleaner now. Need to transfer units from MT/BCM to MWh for all energy carriers. Removed 'Infinity' from max, althugh Macro recognizes this value (without quotes). Still deriving emission rates from PIER outputs rather than from PIER2.0 carrier data. Changed availability profiles for vre legacy installs to 2023 (was 2024)- I am guessing that this is how availability profiles are used in PIER2.0, because annual technology improvements are implemented in availabilities, base availability profile * tech improvement = availability profile for tech in install year.
 24 April 2026:
         Attempt to change structure of NG nodes to handle both domestic and import supply has led to a problem with ng supply.
 23 April 2026:

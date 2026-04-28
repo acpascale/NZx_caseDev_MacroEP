@@ -19,10 +19,9 @@
                     "MaxCapacityConstraint": true
                 },
                 "#operationalParameters": "PIER2.0 --> ECT_OperationalInfo.csv & ECT_EfficiencyCostMaxAnnualUF.csv & ECT_EmissionDetails.csv & PhysicalCarrierEmissions.csv & PhysicalPrimaryCarriers.csv ::  Fuel consumption = 1/coversion efficiency ; emisison rate = emissions per physical unit / energy density * fuel consumption ",
-                "emission_rate": 0.482479156,
+                "emission_rate": 0.446700599,
                 "fuel_consumption": 2.624891001,
                 "uc": true,
-                "electricity_consumption": 0.066,
                 "ramp_up_fraction": 0.3,
                 "ramp_down_fraction": 0.3,
                 "#finance_source": "Million Rupees, Source = PIER2.0 -> ECT_EfficiencyCostMaxAnnualUF.xlsx ; PIER costs for 1 GW Capacity all, Macro in MW",
@@ -38,8 +37,8 @@
                 "##capital_recovery_period": 40,    
                 "availability": {
                     "timeseries": {
-                        "path": "system/availability_PIER8760_5period.csv",
-                        "header": "EG_COAL_ALL_ALL"
+                        "header": "EG_COAL_2024_ALL",
+                        "path": "system/availability_PIER8760_5period.csv"
                     }
                 }
         },
@@ -85,33 +84,61 @@
                 "id": "NR_coal_legacy",
                 "location": "NR",
                 "min_capacity": 0,
-                "max_capacity": 67226.28
-                            
+                "max_capacity": 67226.28,    
+                "availability": {
+                    "timeseries": {
+                        "header": "EG_COAL_2023_ALL",
+                        "path": "system/availability_PIER8760_5period.csv"
+                    }
+                }           
             },
             {
                 "id": "NER_coal_legacy",
                 "location": "NER",
                 "min_capacity": 0,
-                "max_capacity": 1011
-                
+                "max_capacity": 1011,    
+                "availability": {
+                    "timeseries": {
+                        "header": "EG_COAL_2023_ALL",
+                        "path": "system/availability_PIER8760_5period.csv"
+                    }
+                }           
             },
             {
                 "id": "ER_coal_legacy",
                 "location": "ER",
                 "min_capacity": 0,
-                "max_capacity": 41730
+                "max_capacity": 41730,    
+                "availability": {
+                    "timeseries": {
+                        "header": "EG_COAL_2023_ALL",
+                        "path": "system/availability_PIER8760_5period.csv"
+                    }
+                }  
             },
             {
                 "id": "WR_coal_legacy",
                 "location": "WR",
                 "min_capacity": 0,
-                "max_capacity": 90476
+                "max_capacity": 90476,    
+                "availability": {
+                    "timeseries": {
+                        "header": "EG_COAL_2023_ALL",
+                        "path": "system/availability_PIER8760_5period.csv"
+                    }
+                }  
             },
             {
                 "id": "SR_coal_legacy",
                 "location": "SR",
                 "min_capacity": 0,
-                "max_capacity": 63929.2
+                "max_capacity": 63929.2,    
+                "availability": {
+                    "timeseries": {
+                        "header": "EG_COAL_2023_ALL",
+                        "path": "system/availability_PIER8760_5period.csv"
+                    }
+                }  
             }
         ]
     }

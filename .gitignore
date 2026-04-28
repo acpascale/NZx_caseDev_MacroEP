@@ -33,3 +33,5 @@ _dev*
 user_additions*
 
 _old*
+
+*.Rhistory

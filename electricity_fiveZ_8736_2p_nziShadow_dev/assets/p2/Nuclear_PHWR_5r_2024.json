@@ -22,7 +22,6 @@
                 "emission_rate": 0,
                 "fuel_consumption": 1,
                 "uc": true,
-                "electricity_consumption": 0.108,
                 "ramp_up_fraction": 0.01,
                 "ramp_down_fraction": 0.01,
                 "min_up_time": 36,
@@ -39,7 +38,7 @@
                 "##capital_recovery_period": 40,
                 "availability": {
                     "timeseries": {
-                        "header": "EG_PHWR_ALL_ALL",
+                        "header": "EG_PHWR_2024_ALL",
                         "path": "system/availability_PIER8760_5period.csv"
                     }
                 }
@@ -84,31 +83,61 @@
                 "id": "NR_nuclear_PHWR_legacy",
                 "location": "NR",
                 "min_capacity": 0,
-                "max_capacity": 1603.5
+                "max_capacity": 1603.5,
+                "availability": {
+                    "timeseries": {
+                        "header": "EG_PHWR_2023_ALL",
+                        "path": "system/availability_PIER8760_5period.csv"
+                    }
+                }
             },
             {
                 "id": "NER_nuclear_PHWR_legacy",
                 "location": "NER",
                 "min_capacity": 0,
-                "max_capacity": 0
+                "max_capacity": 0,
+                "availability": {
+                    "timeseries": {
+                        "header": "EG_PHWR_2023_ALL",
+                        "path": "system/availability_PIER8760_5period.csv"
+                    }
+                }
             },
             {
                 "id": "ER_nuclear_PHWR_legacy",
                 "location": "ER",
                 "min_capacity": 0,
-                "max_capacity": 0
+                "max_capacity": 0,
+                "availability": {
+                    "timeseries": {
+                        "header": "EG_PHWR_2023_ALL",
+                        "path": "system/availability_PIER8760_5period.csv"
+                    }
+                }
             },
             {
                 "id": "WR_nuclear_PHWR_legacy",
                 "location": "WR",
                 "min_capacity": 0,
-                "max_capacity": 3247.6
+                "max_capacity": 3247.6,
+                "availability": {
+                    "timeseries": {
+                        "header": "EG_PHWR_2023_ALL",
+                        "path": "system/availability_PIER8760_5period.csv"
+                    }
+                }
             },
             {
                 "id": "SR_nuclear_PHWR_legacy",
                 "location": "SR",
                 "min_capacity": 0,
-                "max_capacity": 3320
+                "max_capacity": 3320,
+                "availability": {
+                    "timeseries": {
+                        "header": "EG_PHWR_2023_ALL",
+                        "path": "system/availability_PIER8760_5period.csv"
+                    }
+                }
             }
         ]
     }

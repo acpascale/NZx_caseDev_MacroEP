@@ -26,7 +26,6 @@
                 "#operationalParameters": "PIER2.0 --> ECT_OperationalInfo.csv & ECT_EfficiencyCostMaxAnnualUF.csv & ECT_EmissionDetails.csv ::  Fuel consumption = 1/coversion efficiency",
                 "discharge_ramp_down_fraction": 1,
                 "discharge_ramp_up_fraction": 1,
-                "electricity_consumption": 0.01,
                 "discharge_efficiency": 1.0,
                 "#finance_source": "Million Rupees, Source = PIER2.0 -> ECT_EfficiencyCostMaxAnnualUF.xlsx ; PIER costs for 1 GW Capacity all, Macro in MW",
                 "#common_finance": "No Fixed O&M in PIER ; Var O&M is PIER cost per tonne / conversion efficiency",
@@ -41,7 +40,7 @@
                 "##capital_recovery_period": 20, 
                 "inflow_availability": {
                     "timeseries": {
-                        "header": "EG_SH_ALL_ALL",
+                        "header": "EG_SH_2023_ALL",
                         "path": "system/availability_PIER8760_5period.csv"
                     }
                 }

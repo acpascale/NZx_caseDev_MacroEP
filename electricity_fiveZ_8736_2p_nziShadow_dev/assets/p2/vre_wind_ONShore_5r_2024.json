@@ -95,7 +95,7 @@
                 "max_capacity": 5301.4,
                 "availability": {
                     "timeseries": {
-                        "header": "EG_WINDON_2024_NR",
+                        "header": "EG_WINDON_2023_NR",
                         "path": "system/availability_PIER8760_5period.csv"
                     }
                 }
@@ -107,7 +107,7 @@
                 "max_capacity": 0,
                 "availability": {
                     "timeseries": {
-                        "header": "EG_WINDON_2024_NER",
+                        "header": "EG_WINDON_2023_NER",
                         "path": "system/availability_PIER8760_5period.csv"
                     }
                 }
@@ -119,7 +119,7 @@
                 "max_capacity": 46,
                 "availability": {
                     "timeseries": {
-                        "header": "EG_WINDON_2024_ER",
+                        "header": "EG_WINDON_2023_ER",
                         "path": "system/availability_PIER8760_5period.csv"
                     }
                 }
@@ -131,7 +131,7 @@
                 "max_capacity": 18661,
                 "availability": {
                     "timeseries": {
-                        "header": "EG_WINDON_2024_WR",
+                        "header": "EG_WINDON_2023_WR",
                         "path": "system/availability_PIER8760_5period.csv"
                     }
                 }
@@ -143,7 +143,7 @@
                 "max_capacity": 22161.3,
                 "availability": {
                     "timeseries": {
-                        "header": "EG_WINDON_2024_SR",
+                        "header": "EG_WINDON_2023_SR",
                         "path": "system/availability_PIER8760_5period.csv"
                     }
                 }

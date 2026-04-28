@@ -20,10 +20,9 @@
                     "MaxCapacityConstraint": true
                 },
                 "#operationalParameters": "PIER2.0 --> ECT_OperationalInfo.csv & ECT_EfficiencyCostMaxAnnualUF.csv & ECT_EmissionDetails.csv & PhysicalCarrierEmissions.csv & PhysicalPrimaryCarriers.csv ::  Fuel consumption = 1/coversion efficiency ; emisison rate = ? ",
-                "emission_rate": 0.283109905,
+                "emission_rate": 0.257372641,
                 "fuel_consumption": 2.472538003,
                 "uc": true,
-                "electricity_consumption": 0.02,
                 "ramp_up_fraction": 0.9,
                 "ramp_down_fraction": 0.9,
                 "#finance_source": "Million Rupees, Source = PIER2.0 -> ECT_EfficiencyCostMaxAnnualUF.xlsx ; PIER costs for 1 GW Capacity all, Macro in MW",
@@ -38,7 +37,7 @@
                 "##capital_recovery_period": 25,
                 "availability": {
                     "timeseries": {
-                        "header": "EG_CCGT_ALL_ALL",
+                        "header": "EG_CCGT_2024_ALL",
                         "path": "system/availability_PIER8760_5period.csv"
                     }
                 }
@@ -83,31 +82,61 @@
                 "id": "NR_NG_CCGT_legacy",
                 "location": "NR",
                 "min_capacity": 0,
-                "max_capacity": 7330.5
+                "max_capacity": 7330.5,
+                "availability": {
+                    "timeseries": {
+                        "header": "EG_CCGT_2023_ALL",
+                        "path": "system/availability_PIER8760_5period.csv"
+                    }
+                }
             },
             {
                 "id": "NER_NG_CCGT_legacy",
                 "location": "NER",
                 "min_capacity": 0,
-                "max_capacity": 2002.4
+                "max_capacity": 2002.4,
+                "availability": {
+                    "timeseries": {
+                        "header": "EG_CCGT_2023_ALL",
+                        "path": "system/availability_PIER8760_5period.csv"
+                    }
+                }
             },
             {
                 "id": "ER_NG_CCGT_legacy",
                 "location": "ER",
                 "min_capacity": 0,
-                "max_capacity": 770.8
+                "max_capacity": 770.8,
+                "availability": {
+                    "timeseries": {
+                        "header": "EG_CCGT_2023_ALL",
+                        "path": "system/availability_PIER8760_5period.csv"
+                    }
+                }
             },
             {
                 "id": "WR_NG_CCGT_legacy",
                 "location": "WR",
                 "min_capacity": 0,
-                "max_capacity": 13563.1
+                "max_capacity": 13563.1,
+                "availability": {
+                    "timeseries": {
+                        "header": "EG_CCGT_2023_ALL",
+                        "path": "system/availability_PIER8760_5period.csv"
+                    }
+                }
             },
             {
                 "id": "SR_NG_CCGT_legacy",
                 "location": "SR",
                 "min_capacity": 0,
-                "max_capacity": 7730.2
+                "max_capacity": 7730.2,
+                "availability": {
+                    "timeseries": {
+                        "header": "EG_CCGT_2023_ALL",
+                        "path": "system/availability_PIER8760_5period.csv"
+                    }
+                }
             }
         ]
     }

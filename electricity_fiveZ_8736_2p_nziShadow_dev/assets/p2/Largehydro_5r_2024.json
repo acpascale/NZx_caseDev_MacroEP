@@ -26,7 +26,6 @@
                 "#operationalParameters": "PIER2.0 --> ECT_OperationalInfo.csv & ECT_EfficiencyCostMaxAnnualUF.csv & ECT_EmissionDetails.csv ::  Fuel consumption = 1/coversion efficiency",
                 "discharge_ramp_down_fraction": 1,
                 "discharge_ramp_up_fraction": 1,
-                "electricity_consumption": 0.06,
                 "discharge_efficiency": 1.0,
                 "#finance_source": "Million Rupees, Source = PIER2.0 -> ECT_EfficiencyCostMaxAnnualUF.xlsx ; PIER costs for 1 GW Capacity all, Macro in MW",
                 "#common_finance": "No Fixed O&M in PIER ; Var O&M is PIER cost per tonne / conversion efficiency",
@@ -39,7 +38,7 @@
                 "##capital_recovery_period": 20,    
                 "inflow_availability": {
                     "timeseries": {
-                        "header": "EG_LH_ALL_ALL",
+                        "header": "EG_LH_2024_ALL",
                         "path": "system/availability_PIER8760_5period.csv"
                     }
                 }
@@ -84,31 +83,61 @@
                     "id": "NR_conventional_hydroelectric_legacy",
                     "location": "NR",
                     "discharge_min_capacity": 0,
-                    "discharge_max_capacity": 20500
+                    "discharge_max_capacity": 20500,    
+                    "inflow_availability": {
+                        "timeseries": {
+                            "header": "EG_LH_2023_ALL",
+                            "path": "system/availability_PIER8760_5period.csv"
+                        }
+                    }
                 },
                 {
                     "id": "NER_conventional_hydroelectric_legacy",
                     "location": "NER",
                     "discharge_min_capacity": 0,
-                    "discharge_max_capacity": 1850
+                    "discharge_max_capacity": 1850,    
+                    "inflow_availability": {
+                        "timeseries": {
+                            "header": "EG_LH_2023_ALL",
+                            "path": "system/availability_PIER8760_5period.csv"
+                        }
+                    }
                 },
                 {
                     "id": "ER_conventional_hydroelectric_legacy",
                     "location": "ER",
                     "discharge_min_capacity": 0,
-                    "discharge_max_capacity": 4200
+                    "discharge_max_capacity": 4200,    
+                    "inflow_availability": {
+                        "timeseries": {
+                            "header": "EG_LH_2023_ALL",
+                            "path": "system/availability_PIER8760_5period.csv"
+                        }
+                    }
                 },
                 {
                     "id": "WR_conventional_hydroelectric_legacy",
                     "location": "WR",
                     "discharge_min_capacity": 0,
-                    "discharge_max_capacity": 7900
+                    "discharge_max_capacity": 7900,    
+                    "inflow_availability": {
+                        "timeseries": {
+                            "header": "EG_LH_2023_ALL",
+                            "path": "system/availability_PIER8760_5period.csv"
+                        }
+                    }
                 },
                 {
                     "id": "SR_conventional_hydroelectric_legacy",
                     "location": "SR",
                     "discharge_min_capacity": 0,
-                    "discharge_max_capacity": 12200
+                    "discharge_max_capacity": 12200,    
+                    "inflow_availability": {
+                        "timeseries": {
+                            "header": "EG_LH_2023_ALL",
+                            "path": "system/availability_PIER8760_5period.csv"
+                        }
+                    }
                 }
             ]
         }
