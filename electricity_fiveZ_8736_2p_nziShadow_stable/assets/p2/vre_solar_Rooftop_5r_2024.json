@@ -12,13 +12,13 @@
             },
             "#operationalParameters": "PIER2.0 --> ECT_OperationalInfo.csv & ECT_EfficiencyCostMaxAnnualUF.csv & ECT_EmissionDetails.csv & PhysicalCarrierEmissions.csv & PhysicalPrimaryCarriers.csv ::  Fuel consumption = 1/coversion efficiency ; emisison rate = ? ",
             "#finance_source": "Million Rupees, Source = PIER2.0 -> ECT_EfficiencyCostMaxAnnualUF.xlsx ; PIER costs for 1 GW Capacity all, Macro in MW",
-            "#common_finance": "No Fixed O&M in PIER ; Var O&M is PIER cost per tonne / conversion efficiency",
-            "#legacy&new_finance": "Annualized Investment cost = Legacy/new Fixed Annualized Capital Cost * 1e3 ",
             "capacity_size": 1,
             "lifetime": 25,
-            "fixed_om_cost": 0,
+            "fixed_om_cost": 631.8479666,
             "variable_om_cost": 0,
-            "annualized_investment_cost": 5542187.695
+            "investment_cost": 41649.74,
+            "capital_recovery_period": 25,
+            "wacc": 0.104
         },
         "instance_data": [
             {
@@ -93,7 +93,7 @@
                 "max_capacity": 2666.3,
                 "availability": {
                     "timeseries": {
-                        "header": "EG_SOLARRF_2024_NR",
+                        "header": "EG_SOLARRF_2023_NR",
                         "path": "system/availability_PIER8760_5period.csv"
                     }
                 }
@@ -105,7 +105,7 @@
                 "max_capacity": 67.6,
                 "availability": {
                     "timeseries": {
-                        "header": "EG_SOLARRF_2024_NER",
+                        "header": "EG_SOLARRF_2023_NER",
                         "path": "system/availability_PIER8760_5period.csv"
                     }
                 }
@@ -117,7 +117,7 @@
                 "max_capacity": 2000,
                 "availability": {
                     "timeseries": {
-                        "header": "EG_SOLARRF_2024_ER",
+                        "header": "EG_SOLARRF_2023_ER",
                         "path": "system/availability_PIER8760_5period.csv"
                     }
                 }
@@ -129,7 +129,7 @@
                 "max_capacity": 4503.4,
                 "availability": {
                     "timeseries": {
-                        "header": "EG_SOLARRF_2024_WR",
+                        "header": "EG_SOLARRF_2023_WR",
                         "path": "system/availability_PIER8760_5period.csv"
                     }
                 }
@@ -141,7 +141,7 @@
                 "max_capacity": 2030.8,
                 "availability": {
                     "timeseries": {
-                        "header": "EG_SOLARRF_2024_SR",
+                        "header": "EG_SOLARRF_2023_SR",
                         "path": "system/availability_PIER8760_5period.csv"
                     }
                 }

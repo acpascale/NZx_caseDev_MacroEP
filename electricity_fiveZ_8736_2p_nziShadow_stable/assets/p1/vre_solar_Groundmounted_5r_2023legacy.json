@@ -12,14 +12,14 @@
             },
             "#operationalParameters": "PIER2.0 --> ECT_OperationalInfo.csv & ECT_EfficiencyCostMaxAnnualUF.csv & ECT_EmissionDetails.csv & PhysicalCarrierEmissions.csv & PhysicalPrimaryCarriers.csv ::  Fuel consumption = 1/coversion efficiency ; emisison rate = ? ",
             "#finance_source": "Million Rupees, Source = PIER2.0 -> ECT_EfficiencyCostMaxAnnualUF.xlsx ; PIER costs for 1 GW Capacity all, Macro in MW",
-            "#common_finance": "No Fixed O&M in PIER ; Var O&M is PIER cost per tonne / conversion efficiency",
-            "#legacy&new_finance": "Annualized Investment cost = Legacy/new Fixed Annualized Capital Cost * 1e3 ",
+            "#common_finance": "No Fixed O&M in PIER ; ",
+            "#legacy&new_finance": "Annualized Investment cost = Legacy/new Fixed Annualized Capital Cost / 1e3 ",
             "capacity_size": 1,
             "#lifetime": "Current lifetime hack for aggregate legacy industry is half of lifetime of new infrastructure. To be updated using PIER. Can not be a decimal/float.",
             "lifetime": 13,
             "fixed_om_cost": 0,
             "variable_om_cost": 0,
-            "annualized_investment_cost": 7713457.24
+            "annualized_investment_cost": 7713.45724
         },
         "instance_data": [
             {

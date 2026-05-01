@@ -97,16 +97,16 @@
             "instance_data": [
                 {
                     "id": "naturalgas_source",
-                    "#price_currencySource": "Million Rupees, Source = PIER2.0 -> PEC_Info.csv",
-                    "#id": "seg1 = domestic, seg2 = import <_ PEC_ProdImpConstraints.csv , no taxes applied yet, need to convert physical quantities?",
+                    "#price_currencySource": "Million Rupees per MWh carrier, Source = PIER2.0 -> PEC_Info.csv",
+                    "#id": "seg1 = domestic, seg2 = import <_ PEC_ProdImpConstraints.csv , no taxes applied yet",
                     "supply": {
                         "segment1": {
-                            "price": 23859.03078,
+                            "price": 2.302665502,
                             "min": 0,
                             "max": 1293254957952
                         },
                         "segment2": {
-                            "price": 54880.30558,
+                            "price": 3.362564845,
                             "min": 0,
                             "max": 7536240000000
                         }
@@ -126,16 +126,16 @@
             "instance_data": [
                 {
                     "id": "coal_source",
-                    "#price_currencySource": "Million Rupees, Source = PIER2.0 -> PEC_Info.csv",
+                    "#price_currencySource": "Million Rupees per MWh carrier, Source = PIER2.0 -> PEC_Info.csv",
                     "#id": "seg1 = domestic, seg2 = import <_ PEC_ProdImpConstraints.csv , no taxes applied yet. This is on a state level, so need to split!",
                     "supply": {
                         "segment1": {
-                            "price": 1156.373426,
+                            "price": 0.241930546,
                             "min": 0,
                             "max": 16706155477349
                         },
                         "segment2": {
-                            "price": 10095.81284,
+                            "price": 1.6075623,
                             "min": 0,
                             "max": 10173924000000
                         }
@@ -154,10 +154,10 @@
             "instance_data": [
                 {
                     "id": "uranium_source",
-                    "#price_currencySource": "Million Rupees, Source = TBD, PIER2.0 places no cost on Uranium",
+                    "#price_currencySource": "Million Rupees per MWh carrier,, Source = TBD, PIER2.0 places no cost on Uranium",
                     "supply": {
                         "segment1": {
-                            "price": 1,
+                            "price": 0.1,
                             "min": 0,
                             "max": 100000000000000
                         }
@@ -176,16 +176,16 @@
             "instance_data": [
                 {
                     "id": "biomass_source",
-                    "#price_currencySource": "Million Rupees, Source = PIER2.0 -> PEC_Info.csv . There is no import for either. Value in MWh,converted from MT",
+                    "#price_currencySource": "Million Rupees per MWh carrier, Source = PIER2.0 -> PEC_Info.csv . There is no import for either.",
                     "#priceAvailbilityNote": "BiomassWaste is in Bin 2, but not correct as BW has different physical characteristics than Biomass. Need to split.",
                     "supply": {
                         "segment1": {
-                            "price": 5449.57265,
+                            "price": 1.314891565,
                             "min": 0,
                             "max": 4201200000000
                         },
                         "segment2": {
-                            "price": 9000,
+                            "price": 2.373805825,
                             "min": 0,
                             "max": 2723000000000
                         }
