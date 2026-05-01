@@ -18,4 +18,4 @@ Storage and TX files need to be adjusted for updated split consting approach.
 
 ![Local Image](viz_compare_info/images/PeriodCapacity.png) "Macro Period Capacities 2023 (left), 2024 (right)"
 
-![Local Image](viz_compare_info/images/PeriodCosts.png) "Macro Period Costs 2023 (left, shows investment annuities for legacy capacity), 2024 (right shows new CAPEX investments in capacity added in 2024). All costs except 2023 legacy annuaities need confirming in PIER2.0"
+![Local Image](viz_compare_info/images/PeriodCosts.png) "Macro Period Costs 2023 (left, shows investment annuities for legacy capacity), 2024 (right shows new CAPEX investments in capacity added in 2024). All costs need confirming in PIER2.0, even 2023 annuities which have the right relative spread, but vary in magnitude by 1000x in Macro"
