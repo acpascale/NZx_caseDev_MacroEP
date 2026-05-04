@@ -31,9 +31,9 @@
                 "#finance_source": "Million Rupees, Source = PIER2.0 -> ECT_EfficiencyCostMaxAnnualUF.xlsx ; PIER costs for 1 GW Capacity all, Macro in MW",
                 "capacity_size": 1,
                 "lifetime": 40,
-                "fixed_om_cost":  6194.587907,
+                "fixed_om_cost":  6.194587907,
                 "variable_om_cost": 0,
-                "investment_cost": 263233.88,
+                "investment_cost": 263.23388,
                 "capital_recovery_period": 40,
                 "wacc": 0.105,
                 "availability": {

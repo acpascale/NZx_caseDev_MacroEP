@@ -101,12 +101,12 @@
                     "#id": "seg1 = domestic, seg2 = import <_ PEC_ProdImpConstraints.csv , no taxes applied yet",
                     "supply": {
                         "segment1": {
-                            "price": 2.279452621,
+                            "price": 0.002279452621,
                             "min": 0,
                             "max": 1267897017600
                         },
                         "segment2": {
-                            "price": 5.243174275,
+                            "price": 0.005243174275,
                             "min": 0,
                             "max": 7536240000000
                         }
@@ -130,12 +130,12 @@
                     "#id": "seg1 = domestic, seg2 = import <_ PEC_ProdImpConstraints.csv , no taxes applied yet. This is on a state level, so need to split!",
                     "supply": {
                         "segment1": {
-                            "price": 0.241931,
+                            "price": 0.000241931,
                             "min": 0,
                             "max": 15900284540795
                         },
                         "segment2": {
-                            "price": 2.101388628,
+                            "price": 0.002101388628,
                             "min": 0,
                             "max": 10173924000000
                         }
@@ -157,7 +157,7 @@
                     "#price_currencySource": "Million Rupees per MWh carrier, Source = TBD, PIER2.0 places no cost on Uranium",
                     "supply": {
                         "segment1": {
-                            "price": 0.1,
+                            "price": 0.0001,
                             "min": 0,
                             "max": 10000000000000
                         }
@@ -180,12 +180,12 @@
                     "#priceAvailbilityNote": "BiomassWaste is in Bin 2, but not correct as BW has different physical characteristics than Biomass. Need to split.",
                     "supply": {
                         "segment1": {
-                            "price": 1.260826567,
+                            "price": 0.001260826567,
                             "min": 0,
                             "max":  4201200000000
                         },
                         "segment2": {
-                            "price": 2.373805825,
+                            "price": 0.002373805825,
                             "min": 0,
                             "max": 2723000000000
                         }

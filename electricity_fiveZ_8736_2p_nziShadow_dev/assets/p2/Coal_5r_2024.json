@@ -19,7 +19,7 @@
                     "MaxCapacityConstraint": true
                 },
                 "#operationalParameters": "PIER2.0 --> ECT_OperationalInfo.csv & ECT_EfficiencyCostMaxAnnualUF.csv & ECT_EmissionDetails.csv & PhysicalCarrierEmissions.csv & PhysicalPrimaryCarriers.csv ::  Fuel consumption = 1/coversion efficiency ; emisison rate = emissions per physical unit / energy density * fuel consumption ",
-                "emission_rate": 0.406283252,
+                "emission_rate": 0.391592532,
                 "#fuel_consumption": "adjusted for self consumption",
                 "fuel_consumption": 2.810,
                 "uc": true,
@@ -29,11 +29,11 @@
                 "#common_finance": "Var O&M is PIER cost in million Rs per million tonne to million Rs per MWh",
                 "capacity_size": 1,
                 "lifetime": 40,
-                "fixed_om_cost": 3716.752744,
-                "variable_om_cost": 0.0733,
+                "fixed_om_cost": 3.716752744,
+                "variable_om_cost": 0.0000785,
                 "capital_recovery_period": 40,    
                 "wacc": 0.105,
-                "investment_cost": 93522.92,
+                "investment_cost": 93.52292,
                 "availability": {
                     "timeseries": {
                         "header": "EG_COAL_2024_ALL",

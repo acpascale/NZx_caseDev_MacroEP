@@ -36,7 +36,7 @@
                 "lifetime": 20,
                 "discharge_fixed_om_cost": 0,
                 "variable_om_cost": 0,
-                "discharge_annualized_investment_cost": 11825.34876,
+                "discharge_annualized_investment_cost": 11.82534876,
                 "inflow_availability": {
                     "timeseries": {
                         "header": "EG_SH_2023_ALL",

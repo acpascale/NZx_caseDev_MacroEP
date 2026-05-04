@@ -34,7 +34,7 @@
                 "lifetime": 13,
                 "fixed_om_cost": 0,
                 "variable_om_cost": 0,
-                "annualized_investment_cost": 8512.227803,
+                "annualized_investment_cost": 8.512227803,
                 "availability": {
                     "timeseries": {
                         "header": "EG_CCGT_2023_ALL",
