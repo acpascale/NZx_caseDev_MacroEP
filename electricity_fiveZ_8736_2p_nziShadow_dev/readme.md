@@ -7,6 +7,7 @@ When this version reaches stable operation and represents a useful update to the
 5 May 2026
     Updated costs to for proper relationship wrt PIER2.0 costs (largely divide by 3)
     Upate R code for pre-processing of PIER2.0+Rumi input/output data for input into Macro
+    CO2 emissions from coal generation appears to be between values in PIER - TBD
 
 ![Local Image](viz_compare_info/images/MACROvPIER.png) "Macro vs PIER2.0 Generation and CO2 emissions"
 
