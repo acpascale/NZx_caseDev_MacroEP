@@ -198,8 +198,8 @@
                 "lifetime": 25,
                 "#annualized_investment_cost": "PIER2.0 does not attach investment costs to transmission/distribuion other than cost perGWh when used.",
                 "annualized_investment_cost": 0,
-                "#capital_recovery_period": "Added in order to carry annualized_investment_cost into cost accounting of future periods",
-                "##capital_recovery_period": 25,
+                "#capital_recovery_period": "added to explicity highlight the use of the default value = 1 in reporting costs for model period 1, this used to compare directly with PIER2.0 costs in year 1",
+                "capital_recovery_period": 1,
                 "can_retire": false,
                 "can_expand": true
             },

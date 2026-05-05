@@ -37,6 +37,8 @@
                 "discharge_fixed_om_cost": 0,
                 "variable_om_cost": 0,
                 "discharge_annualized_investment_cost": 11.82534876,
+                "#capital_recovery_period": "added to explicity highlight the use of the default value = 1 in reporting costs for model period 1, this used to compare directly with PIER2.0 costs in year 1",
+                "capital_recovery_period": 1,
                 "inflow_availability": {
                     "timeseries": {
                         "header": "EG_SH_2023_ALL",
