@@ -26,7 +26,6 @@ Manifest.toml
 
 results/*
 results*
-PIERumi*
 
 _dev*
 
@@ -36,3 +35,14 @@ _old*
 
 *.Rhistory
 .Rhistory
+
+electricity_fiveZ_8736_2p_nziShadow_stable/viz_compare_info/PIERumi/availability_PIER8760_5period_noSelfConsumption.csv
+electricity_fiveZ_8736_2p_nziShadow_stable/viz_compare_info/PIERumi/availability_PIER8760_5period_prior.csv
+electricity_fiveZ_8736_2p_nziShadow_stable/viz_compare_info/PIERumi/availability_PIER8760_5period_vreAdj.csv
+electricity_fiveZ_8736_2p_nziShadow_stable/viz_compare_info/PIERumi/source/ECT_Max_CUF.csv
+electricity_fiveZ_8736_2p_nziShadow_stable/viz_compare_info/PIERumi/source/ECT_OperationalInfo.csv
+availability288_8_REF_Unconstr*
+availability8760_8_REF_Unconstr*
+demand_EnergyCarrier_4_REF*
+demand288_4_REF*
+supply_8_REF_Unconstr*
