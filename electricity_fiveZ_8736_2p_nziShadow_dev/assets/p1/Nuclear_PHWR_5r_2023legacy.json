@@ -41,7 +41,7 @@
                 "availability": {
                     "timeseries": {
                         "header": "EG_PHWR_2023_ALL",
-                        "path": "system/availability_PIER8760_5period.csv"
+                        "path": "system/availability/2023.csv"
                     }
                 }
         },
@@ -50,8 +50,8 @@
                 "id": "NR_nuclear_PHWR_legacy",
                 "location": "NR",
                 "existing_capacity": 0,
-                "min_capacity": 1603.5,
-                "max_capacity": 1603.5
+                "min_capacity": 1603.518,
+                "max_capacity": 1603.518
             },
             {
                 "id": "NER_nuclear_PHWR_legacy",
@@ -71,15 +71,15 @@
                 "id": "WR_nuclear_PHWR_legacy",
                 "location": "WR",
                 "existing_capacity": 0,
-                "min_capacity": 3247.6,
-                "max_capacity": 3247.6
+                "min_capacity": 3248.824,
+                "max_capacity": 3248.824
             },
             {
                 "id": "SR_nuclear_PHWR_legacy",
                 "location": "SR",
                 "existing_capacity": 0,
-                "min_capacity": 3320,
-                "max_capacity": 3320
+                "min_capacity": 3327.668,
+                "max_capacity": 3327.668
             },
             {
                 "id": "NR_nuclear_PHWR",

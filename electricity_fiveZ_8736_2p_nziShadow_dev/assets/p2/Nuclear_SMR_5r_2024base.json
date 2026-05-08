@@ -39,7 +39,7 @@
                 "availability": {
                     "timeseries": {
                         "header": "EG_SMR_2024_ALL",
-                        "path": "system/availability_PIER8760_5period.csv"
+                        "path": "system/availability/2024.csv"
                     }
                 }
         },

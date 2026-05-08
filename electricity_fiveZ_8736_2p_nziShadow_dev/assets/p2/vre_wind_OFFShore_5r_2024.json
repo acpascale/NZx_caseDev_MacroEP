@@ -30,7 +30,7 @@
                 "availability": {
                     "timeseries": {
                         "header": "EG_WINDOFF_ALL_ER",
-                        "path": "system/availability_PIER8760_5period.csv"
+                        "path": "system/availability/2024.csv"
                     }
                 }
             },         
@@ -43,7 +43,7 @@
                 "availability": {
                     "timeseries": {
                         "header": "EG_WINDOFF_ALL_WR",
-                        "path": "system/availability_PIER8760_5period.csv"
+                        "path": "system/availability/2024.csv"
                     }
                 }
             },
@@ -56,7 +56,7 @@
                 "availability": {
                     "timeseries": {
                         "header": "EG_WINDOFF_ALL_SR",
-                        "path": "system/availability_PIER8760_5period.csv"
+                        "path": "system/availability/2024.csv"
                     }
                 }
             }

@@ -19,7 +19,7 @@
                     "MaxCapacityConstraint": true
                 },
                 "#operationalParameters": "PIER2.0 --> ECT_OperationalInfo.csv & ECT_EfficiencyCostMaxAnnualUF.csv & ECT_EmissionDetails.csv & PhysicalCarrierEmissions.csv & PhysicalPrimaryCarriers.csv ::  Fuel consumption = 1/coversion efficiency ; emisison rate = emissions per physical unit / energy density * fuel consumption ",
-                "emission_rate": 0.406283252,
+                "emission_rate":   0.40631575,
                 "#fuel_consumption": "adjusted for self consumption",
                 "fuel_consumption": 2.810,
                 "uc": true,
@@ -39,7 +39,7 @@
                 "availability": {
                     "timeseries": {
                         "header": "EG_COAL_2023_ALL",
-                        "path": "system/availability_PIER8760_5period.csv"
+                        "path": "system/availability/2023.csv"
                     }
                 }
         },
@@ -48,8 +48,8 @@
                 "id": "NR_coal_legacy",
                 "location": "NR",
                 "existing_capacity": 0,
-                "min_capacity": 67226.28,
-                "max_capacity": 67226.28,
+                "min_capacity": 67226.539,
+                "max_capacity": 67226.539,
                 "annualized_investment_cost": 11.751599,
                 "##wacc": 0.105,
                 "##capital_recovery_period": 10,
@@ -59,8 +59,8 @@
                 "id": "NER_coal_legacy",
                 "location": "NER",
                 "existing_capacity": 0,
-                "min_capacity": 1011,
-                "max_capacity": 1011,
+                "min_capacity": 1010.930,
+                "max_capacity": 1010.930,
                 "annualized_investment_cost": 26.148846,
                 "##wacc": 0.105,
                 "##capital_recovery_period": 10,
@@ -70,8 +70,8 @@
                 "id": "ER_coal_legacy",
                 "location": "ER",
                 "existing_capacity": 0,
-                "min_capacity": 41730,
-                "max_capacity": 41730,
+                "min_capacity": 41729.904,
+                "max_capacity": 41729.904,
                 "annualized_investment_cost": 6.514906,
                 "##wacc": 0.105,
                 "##capital_recovery_period": 10,
@@ -81,8 +81,8 @@
                 "id": "WR_coal_legacy",
                 "location": "WR",
                 "existing_capacity": 0,
-                "min_capacity": 90476,
-                "max_capacity": 90476,
+                "min_capacity": 90475.826,
+                "max_capacity": 90475.826,
                 "annualized_investment_cost": 5.794652,
                 "##wacc": 0.105,
                 "##capital_recovery_period": 10,
@@ -92,8 +92,8 @@
                 "id": "SR_coal_legacy",
                 "location": "SR",
                 "existing_capacity": 0,
-                "min_capacity": 63929.2,
-                "max_capacity": 63929.2,
+                "min_capacity": 63929.271,
+                "max_capacity": 63929.271,
                 "annualized_investment_cost": 5.822445,
                 "##wacc": 0.105,
                 "##capital_recovery_period": 10,

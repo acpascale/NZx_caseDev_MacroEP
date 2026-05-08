@@ -38,7 +38,7 @@
                 "inflow_availability": {
                     "timeseries": {
                         "header": "EG_LH_2024_ALL",
-                        "path": "system/availability_PIER8760_5period.csv"
+                        "path": "system/availability/2024.csv"
                     }
                 }
             },
@@ -82,11 +82,11 @@
                     "id": "NR_conventional_hydroelectric_legacy",
                     "location": "NR",
                     "discharge_min_capacity": 0,
-                    "discharge_max_capacity": 20500,    
+                    "discharge_max_capacity": 20527.317,    
                     "inflow_availability": {
                         "timeseries": {
                             "header": "EG_LH_2023_ALL",
-                            "path": "system/availability_PIER8760_5period.csv"
+                            "path": "system/availability/2023.csv"
                         }
                     }
                 },
@@ -94,11 +94,11 @@
                     "id": "NER_conventional_hydroelectric_legacy",
                     "location": "NER",
                     "discharge_min_capacity": 0,
-                    "discharge_max_capacity": 1850,    
+                    "discharge_max_capacity": 1842.825,    
                     "inflow_availability": {
                         "timeseries": {
                             "header": "EG_LH_2023_ALL",
-                            "path": "system/availability_PIER8760_5period.csv"
+                            "path": "system/availability/2023.csv"
                         }
                     }
                 },
@@ -106,11 +106,11 @@
                     "id": "ER_conventional_hydroelectric_legacy",
                     "location": "ER",
                     "discharge_min_capacity": 0,
-                    "discharge_max_capacity": 4200,    
+                    "discharge_max_capacity": 4198.860,    
                     "inflow_availability": {
                         "timeseries": {
                             "header": "EG_LH_2023_ALL",
-                            "path": "system/availability_PIER8760_5period.csv"
+                            "path": "system/availability/2023.csv"
                         }
                     }
                 },
@@ -118,11 +118,11 @@
                     "id": "WR_conventional_hydroelectric_legacy",
                     "location": "WR",
                     "discharge_min_capacity": 0,
-                    "discharge_max_capacity": 7900,    
+                    "discharge_max_capacity": 7753.216,    
                     "inflow_availability": {
                         "timeseries": {
                             "header": "EG_LH_2023_ALL",
-                            "path": "system/availability_PIER8760_5period.csv"
+                            "path": "system/availability/2023.csv"
                         }
                     }
                 },
@@ -130,11 +130,11 @@
                     "id": "SR_conventional_hydroelectric_legacy",
                     "location": "SR",
                     "discharge_min_capacity": 0,
-                    "discharge_max_capacity": 12200,    
+                    "discharge_max_capacity": 12168.961,    
                     "inflow_availability": {
                         "timeseries": {
                             "header": "EG_LH_2023_ALL",
-                            "path": "system/availability_PIER8760_5period.csv"
+                            "path": "system/availability/2023.csv"
                         }
                     }
                 }

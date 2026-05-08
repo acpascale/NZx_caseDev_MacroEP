@@ -41,7 +41,7 @@
                 "inflow_availability": {
                     "timeseries": {
                         "header": "EG_LH_2023_ALL",
-                        "path": "system/availability_PIER8760_5period.csv"
+                        "path": "system/availability/2023.csv"
                     }
                 }
             },
@@ -50,36 +50,36 @@
                     "id": "NR_conventional_hydroelectric_legacy",
                     "location": "NR",
                     "discharge_existing_capacity": 0,
-                    "discharge_min_capacity": 20500,
-                    "discharge_max_capacity": 20500
+                    "discharge_min_capacity": 20527.317,
+                    "discharge_max_capacity": 20527.317
                 },
                 {
                     "id": "NER_conventional_hydroelectric_legacy",
                     "location": "NER",
                     "discharge_existing_capacity": 0,
-                    "discharge_min_capacity": 1850,
-                    "discharge_max_capacity": 1850
+                    "discharge_min_capacity": 1842.825,
+                    "discharge_max_capacity": 1842.825
                 },
                 {
                     "id": "ER_conventional_hydroelectric_legacy",
                     "location": "ER",
                     "discharge_existing_capacity": 0,
-                    "discharge_min_capacity": 4200,
-                    "discharge_max_capacity": 4200
+                    "discharge_min_capacity": 4198.860,
+                    "discharge_max_capacity": 4198.860
                 },
                 {
                     "id": "WR_conventional_hydroelectric_legacy",
                     "location": "WR",
                     "discharge_existing_capacity": 0,
-                    "discharge_min_capacity": 7900,
-                    "discharge_max_capacity": 7900
+                    "discharge_min_capacity": 7753.216,
+                    "discharge_max_capacity": 7753.216
                 },
                 {
                     "id": "SR_conventional_hydroelectric_legacy",
                     "location": "SR",
                     "discharge_existing_capacity": 0,
-                    "discharge_min_capacity": 12200,
-                    "discharge_max_capacity": 12200
+                    "discharge_min_capacity": 12168.961,
+                    "discharge_max_capacity": 12168.961
                 },
                 {
                     "id": "NR_conventional_hydroelectric",

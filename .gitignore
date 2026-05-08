@@ -35,3 +35,4 @@ user_additions*
 _old*
 
 *.Rhistory
+.Rhistory

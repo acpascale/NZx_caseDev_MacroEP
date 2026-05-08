@@ -4,8 +4,8 @@
         "global_data": {
                 "#description": "Legacy additional infrastructure in India 2024. Source = PIER2.0 -> ECT_CapAddBounds.xlsx",
                 "timedata": "Biomass",
-                "fuel_commodity": "Biomass",
-                "fuel_start_vertex": "biomass_source",
+                "fuel_commodity": "Biomass_Waste",
+                "fuel_start_vertex": "biomass_waste_source",
                 "co2_sink": "co2_sink",
                 "can_retire": false,
                 "can_expand": true,
@@ -36,7 +36,7 @@
                 "availability": {
                     "timeseries": {
                         "header": "EG_BIOMASS_2024_ALL",
-                        "path": "system/availability_PIER8760_5period.csv"
+                        "path": "system/availability/2024.csv"
                     }
                 } 
         },
@@ -45,46 +45,46 @@
                 "id": "NR_biomass",
                 "location": "NR",                
                 "existing_capacity": 0,
-                "min_capacity": 143,
-                "max_capacity": 143
+                "min_capacity": 143.000,
+                "max_capacity": 143.000
             },
             {
                 "id": "NER_biomass",
                 "location": "NER",
                 "existing_capacity": 0,
-                "min_capacity": 1,
-                "max_capacity": 1
+                "min_capacity": 1.000,
+                "max_capacity": 1.000
             },
             {
                 "id": "ER_biomass",
                 "location": "ER",
                 "existing_capacity": 0,
-                "min_capacity": 23,
-                "max_capacity": 23
+                "min_capacity": 23.000,
+                "max_capacity": 23.000
             },
             {
                 "id": "WR_biomass",
                 "location": "WR",
                 "existing_capacity": 0,
-                "min_capacity": 136,
-                "max_capacity": 136
+                "min_capacity": 136.000,
+                "max_capacity": 136.000
             },
             {
                 "id": "SR_biomass",
                 "location": "SR",
                 "existing_capacity": 0,
-                "min_capacity": 160,
-                "max_capacity": 160
+                "min_capacity": 160.000,
+                "max_capacity": 160.000
             },
             {
                 "id": "NR_biomass_legacy",
                 "location": "NR",
                 "min_capacity": 0,
-                "max_capacity": 3355.17,                         
+                "max_capacity": 3357.150,                         
                 "availability": {
                     "timeseries": {
                         "header": "EG_BIOMASS_2023_ALL",
-                        "path": "system/availability_PIER8760_5period.csv"
+                        "path": "system/availability/2023.csv"
                     }
                 } 
             },
@@ -92,11 +92,11 @@
                 "id": "NER_biomass_legacy",
                 "location": "NER",
                 "min_capacity": 0,
-                "max_capacity": 15.8,                         
+                "max_capacity": 15.800,                         
                 "availability": {
                     "timeseries": {
                         "header": "EG_BIOMASS_2023_ALL",
-                        "path": "system/availability_PIER8760_5period.csv"
+                        "path": "system/availability/2023.csv"
                     }
                 } 
             },
@@ -104,11 +104,11 @@
                 "id": "ER_biomass_legacy",
                 "location": "ER",
                 "min_capacity": 0,
-                "max_capacity": 560.64,                         
+                "max_capacity": 560.640,                         
                 "availability": {
                     "timeseries": {
                         "header": "EG_BIOMASS_2023_ALL",
-                        "path": "system/availability_PIER8760_5period.csv"
+                        "path": "system/availability/2023.csv"
                     }
                 } 
             },
@@ -116,11 +116,11 @@
                 "id": "WR_biomass_legacy",
                 "location": "WR",
                 "min_capacity": 0,
-                "max_capacity": 3161.7,                         
+                "max_capacity": 3161.700,                         
                 "availability": {
                     "timeseries": {
                         "header": "EG_BIOMASS_2023_ALL",
-                        "path": "system/availability_PIER8760_5period.csv"
+                        "path": "system/availability/2023.csv"
                     }
                 } 
             },
@@ -128,11 +128,11 @@
                 "id": "SR_biomass_legacy",
                 "location": "SR",
                 "min_capacity": 0,
-                "max_capacity": 3734.75,                         
+                "max_capacity": 3734.750,                         
                 "availability": {
                     "timeseries": {
                         "header": "EG_BIOMASS_2023_ALL",
-                        "path": "system/availability_PIER8760_5period.csv"
+                        "path": "system/availability/2023.csv"
                     }
                 } 
             }

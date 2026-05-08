@@ -5,6 +5,7 @@
         "Coal",
         "Uranium",
         "Biomass",
+        {"name": "Biomass_Waste", "acts_like": "Biomass"},
         "CO2",
         "CO2Captured"
     ]

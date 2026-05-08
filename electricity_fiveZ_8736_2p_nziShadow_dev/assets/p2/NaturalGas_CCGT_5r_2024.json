@@ -20,7 +20,7 @@
                     "MaxCapacityConstraint": true
                 },
                 "#operationalParameters": "PIER2.0 --> ECT_OperationalInfo.csv & ECT_EfficiencyCostMaxAnnualUF.csv & ECT_EmissionDetails.csv & PhysicalCarrierEmissions.csv & PhysicalPrimaryCarriers.csv ::  Fuel consumption = 1/coversion efficiency ; emisison rate = ? ",
-                "emission_rate": 0.239566709,
+                "emission_rate": 0.23958587,
                 "#fuel_consumption": "adjusted for self consumption",
                 "fuel_consumption": 2.523,
                 "uc": true,
@@ -37,7 +37,7 @@
                 "availability": {
                     "timeseries": {
                         "header": "EG_CCGT_2024_ALL",
-                        "path": "system/availability_PIER8760_5period.csv"
+                        "path": "system/availability/2024.csv"
                     }
                 }
         },
@@ -74,18 +74,18 @@
                 "id": "SR_NG_CCGT",
                 "location": "SR",
                 "existing_capacity": 0,
-                "min_capacity": 370,
-                "max_capacity": 370
+                "min_capacity": 370.000,
+                "max_capacity": 370.000
             },
             {
                 "id": "NR_NG_CCGT_legacy",
                 "location": "NR",
                 "min_capacity": 0,
-                "max_capacity": 7330.5,
+                "max_capacity": 7330.547,
                 "availability": {
                     "timeseries": {
                         "header": "EG_CCGT_2023_ALL",
-                        "path": "system/availability_PIER8760_5period.csv"
+                        "path": "system/availability/2023.csv"
                     }
                 }
             },
@@ -93,11 +93,11 @@
                 "id": "NER_NG_CCGT_legacy",
                 "location": "NER",
                 "min_capacity": 0,
-                "max_capacity": 2002.4,
+                "max_capacity": 2002.457,
                 "availability": {
                     "timeseries": {
                         "header": "EG_CCGT_2023_ALL",
-                        "path": "system/availability_PIER8760_5period.csv"
+                        "path": "system/availability/2023.csv"
                     }
                 }
             },
@@ -105,11 +105,11 @@
                 "id": "ER_NG_CCGT_legacy",
                 "location": "ER",
                 "min_capacity": 0,
-                "max_capacity": 770.8,
+                "max_capacity": 770.804,
                 "availability": {
                     "timeseries": {
                         "header": "EG_CCGT_2023_ALL",
-                        "path": "system/availability_PIER8760_5period.csv"
+                        "path": "system/availability/2023.csv"
                     }
                 }
             },
@@ -117,11 +117,11 @@
                 "id": "WR_NG_CCGT_legacy",
                 "location": "WR",
                 "min_capacity": 0,
-                "max_capacity": 13563.1,
+                "max_capacity": 13563.175,
                 "availability": {
                     "timeseries": {
                         "header": "EG_CCGT_2023_ALL",
-                        "path": "system/availability_PIER8760_5period.csv"
+                        "path": "system/availability/2023.csv"
                     }
                 }
             },
@@ -129,11 +129,11 @@
                 "id": "SR_NG_CCGT_legacy",
                 "location": "SR",
                 "min_capacity": 0,
-                "max_capacity": 7730.2,
+                "max_capacity": 7730.217,
                 "availability": {
                     "timeseries": {
                         "header": "EG_CCGT_2023_ALL",
-                        "path": "system/availability_PIER8760_5period.csv"
+                        "path": "system/availability/2023.csv"
                     }
                 }
             }

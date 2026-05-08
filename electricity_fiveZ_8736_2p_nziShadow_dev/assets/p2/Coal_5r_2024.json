@@ -19,7 +19,7 @@
                     "MaxCapacityConstraint": true
                 },
                 "#operationalParameters": "PIER2.0 --> ECT_OperationalInfo.csv & ECT_EfficiencyCostMaxAnnualUF.csv & ECT_EmissionDetails.csv & PhysicalCarrierEmissions.csv & PhysicalPrimaryCarriers.csv ::  Fuel consumption = 1/coversion efficiency ; emisison rate = emissions per physical unit / energy density * fuel consumption ",
-                "emission_rate": 0.406283252,
+                "emission_rate": 0.40631575,
                 "#fuel_consumption": "adjusted for self consumption",
                 "fuel_consumption": 2.810,
                 "uc": true,
@@ -33,11 +33,10 @@
                 "variable_om_cost": 0.0000785,
                 "capital_recovery_period": 40,    
                 "wacc": 0.105,
-                "investment_cost": 93.52292,
                 "availability": {
                     "timeseries": {
                         "header": "EG_COAL_2024_ALL",
-                        "path": "system/availability_PIER8760_5period.csv"
+                        "path": "system/availability/2024.csv"
                     }
                 }
         },
@@ -45,6 +44,7 @@
             {
                 "id": "NR_coal",
                 "location": "NR",
+                "investment_cost": 75.1121,
                 "existing_capacity": 0,
                 "min_capacity": 0,
                 "max_capacity": 0
@@ -53,6 +53,7 @@
             {
                 "id": "NER_coal",
                 "location": "NER",
+                "investment_cost": 209.7018,
                 "existing_capacity": 0,
                 "min_capacity": 0,
                 "max_capacity": 0
@@ -61,6 +62,7 @@
             {
                 "id": "ER_coal",
                 "location": "ER",
+                "investment_cost": 19.4248,
                 "existing_capacity": 0,
                 "min_capacity": 0,
                 "max_capacity": 0
@@ -68,6 +70,7 @@
             {
                 "id": "WR_coal",
                 "location": "WR",
+                "investment_cost": 19.6846,
                 "existing_capacity": 0,
                 "min_capacity": 0,
                 "max_capacity": 0
@@ -75,6 +78,7 @@
             {
                 "id": "SR_coal",
                 "location": "SR",
+                "investment_cost": 75.1121,
                 "existing_capacity": 0,
                 "min_capacity": 0,
                 "max_capacity": 0
@@ -82,12 +86,14 @@
             {
                 "id": "NR_coal_legacy",
                 "location": "NR",
-                "min_capacity": 0,
-                "max_capacity": 67226.28,    
+                "can_retire": true,
+                "can_expand": false,
+                "min_capacity": 67006.539,
+                "max_capacity": 67006.539,    
                 "availability": {
                     "timeseries": {
                         "header": "EG_COAL_2023_ALL",
-                        "path": "system/availability_PIER8760_5period.csv"
+                        "path": "system/availability/2023.csv"
                     }
                 }           
             },
@@ -95,11 +101,11 @@
                 "id": "NER_coal_legacy",
                 "location": "NER",
                 "min_capacity": 0,
-                "max_capacity": 1011,    
+                "max_capacity": 1010.930,    
                 "availability": {
                     "timeseries": {
                         "header": "EG_COAL_2023_ALL",
-                        "path": "system/availability_PIER8760_5period.csv"
+                        "path": "system/availability/2023.csv"
                     }
                 }           
             },
@@ -107,11 +113,11 @@
                 "id": "ER_coal_legacy",
                 "location": "ER",
                 "min_capacity": 0,
-                "max_capacity": 41730,    
+                "max_capacity": 41729.904,    
                 "availability": {
                     "timeseries": {
                         "header": "EG_COAL_2023_ALL",
-                        "path": "system/availability_PIER8760_5period.csv"
+                        "path": "system/availability/2023.csv"
                     }
                 }  
             },
@@ -119,11 +125,11 @@
                 "id": "WR_coal_legacy",
                 "location": "WR",
                 "min_capacity": 0,
-                "max_capacity": 90476,    
+                "max_capacity": 90475.826,    
                 "availability": {
                     "timeseries": {
                         "header": "EG_COAL_2023_ALL",
-                        "path": "system/availability_PIER8760_5period.csv"
+                        "path": "system/availability/2023.csv"
                     }
                 }  
             },
@@ -131,11 +137,11 @@
                 "id": "SR_coal_legacy",
                 "location": "SR",
                 "min_capacity": 0,
-                "max_capacity": 63929.2,    
+                "max_capacity": 63929.271,    
                 "availability": {
                     "timeseries": {
                         "header": "EG_COAL_2023_ALL",
-                        "path": "system/availability_PIER8760_5period.csv"
+                        "path": "system/availability/2023.csv"
                     }
                 }  
             }

@@ -28,12 +28,12 @@
                 "id": "NR_onshore_wind_legacy",
                 "location": "NR",
                 "existing_capacity": 0,
-                "min_capacity": 5301.4,
-                "max_capacity": 5301.4,
+                "min_capacity": 5301.420,
+                "max_capacity": 5301.420,
                 "availability": {
                     "timeseries": {
                         "header": "EG_WINDON_2023_NR",
-                        "path": "system/availability_PIER8760_5period.csv"
+                        "path": "system/availability/2023.csv"
                     }
                 }
             },
@@ -46,7 +46,7 @@
                 "availability": {
                     "timeseries": {
                         "header": "EG_WINDON_2023_NER",
-                        "path": "system/availability_PIER8760_5period.csv"
+                        "path": "system/availability/2023.csv"
                     }
                 }
             },
@@ -54,12 +54,12 @@
                 "id": "ER_onshore_wind_legacy",
                 "location": "ER",
                 "existing_capacity": 0,
-                "min_capacity": 46,
-                "max_capacity": 46,
+                "min_capacity": 46.000,
+                "max_capacity": 46.000,
                 "availability": {
                     "timeseries": {
                         "header": "EG_WINDON_2023_ER",
-                        "path": "system/availability_PIER8760_5period.csv"
+                        "path": "system/availability/2023.csv"
                     }
                 }
             },         
@@ -67,12 +67,12 @@
                 "id": "WR_onshore_wind_legacy",
                 "location": "WR",
                 "existing_capacity": 0,
-                "min_capacity": 18661,
-                "max_capacity": 18661,
+                "min_capacity": 18661.040,
+                "max_capacity": 18661.040,
                 "availability": {
                     "timeseries": {
                         "header": "EG_WINDON_2023_WR",
-                        "path": "system/availability_PIER8760_5period.csv"
+                        "path": "system/availability/2023.csv"
                     }
                 }
             },
@@ -80,12 +80,12 @@
                 "id": "SR_onshore_wind_legacy",
                 "location": "SR",
                 "existing_capacity": 0,
-                "min_capacity": 22161.3,
-                "max_capacity": 22161.3,
+                "min_capacity": 22161.370,
+                "max_capacity": 22161.370,
                 "availability": {
                     "timeseries": {
                         "header": "EG_WINDON_2023_SR",
-                        "path": "system/availability_PIER8760_5period.csv"
+                        "path": "system/availability/2023.csv"
                     }
                 }
             },
@@ -98,7 +98,7 @@
                 "availability": {
                     "timeseries": {
                         "header": "EG_WINDON_2024_NR",
-                        "path": "system/availability_PIER8760_5period.csv"
+                        "path": "system/availability/2024.csv"
                     }
                 }
             },
@@ -111,7 +111,7 @@
                 "availability": {
                     "timeseries": {
                         "header": "EG_WINDON_2024_NER",
-                        "path": "system/availability_PIER8760_5period.csv"
+                        "path": "system/availability/2024.csv"
                     }
                 }
             },
@@ -124,7 +124,7 @@
                 "availability": {
                     "timeseries": {
                         "header": "EG_WINDON_2024_ER",
-                        "path": "system/availability_PIER8760_5period.csv"
+                        "path": "system/availability/2024.csv"
                     }
                 }
             },         
@@ -137,7 +137,7 @@
                 "availability": {
                     "timeseries": {
                         "header": "EG_WINDON_2024_WR",
-                        "path": "system/availability_PIER8760_5period.csv"
+                        "path": "system/availability/2024.csv"
                     }
                 }
             },
@@ -150,7 +150,7 @@
                 "availability": {
                     "timeseries": {
                         "header": "EG_WINDON_2024_SR",
-                        "path": "system/availability_PIER8760_5period.csv"
+                        "path": "system/availability/2024.csv"
                     }
                 }
             }
