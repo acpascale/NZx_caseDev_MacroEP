@@ -18,7 +18,7 @@
                 "path": "system/time_data.json"
             },
             "nodes": {
-                "path": "system/nodes_p1.json"
+                "path": "system/nodes/nodes_p1.json"
             }
         },
         {
@@ -39,7 +39,7 @@
                 "path": "system/time_data.json"
             },
             "nodes": {
-                "path": "system/nodes_p2.json"
+                "path": "system/nodes/nodes_p2.json"
             }
         }
     ],

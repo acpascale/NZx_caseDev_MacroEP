@@ -2,9 +2,9 @@
     "ElectricityStorage": [
         {
             "type": "Battery",
-            "#description": "Legacy additional infrastructure in India 2024. Source = PIER2.0 -> EST_Parameters.xlsx (EST_CapAddBounds)",
-            "#type": "2-Hr",
             "global_data": {
+                "#description": "Legacy additional infrastructure in India 2024. Source = PIER2.0 -> EST_Parameters.xlsx (EST_CapAddBounds)",
+                "#type": "2-Hr",
                 "storage_can_retire": false,
                 "discharge_can_retire": false,
                 "discharge_can_expand": true,
@@ -75,9 +75,9 @@
         },
         {
             "type": "Battery",
-            "#description": "Legacy additional infrastructure in India 2024. Source = PIER2.0 -> EST_Parameters.xlsx (EST_CapAddBounds)",
-            "#type": "4-Hr",
             "global_data": {
+                "#description": "Legacy additional infrastructure in India 2024. Source = PIER2.0 -> EST_Parameters.xlsx (EST_CapAddBounds)",
+                "#type": "4-Hr",
                 "storage_can_retire": false,
                 "discharge_can_retire": false,
                 "discharge_can_expand": true,
@@ -149,9 +149,9 @@
         },
         {
             "type": "Battery",
-            "#description": "Legacy additional infrastructure in India 2024. Source = PIER2.0 -> EST_Parameters.xlsx (EST_CapAddBounds)",
-            "#type": "6-Hr",
             "global_data": {
+                "#description": "Legacy additional infrastructure in India 2024. Source = PIER2.0 -> EST_Parameters.xlsx (EST_CapAddBounds)",
+                "#type": "6-Hr",
                 "storage_can_retire": false,
                 "discharge_can_retire": false,
                 "discharge_can_expand": true,
@@ -223,9 +223,9 @@
         },
         {
             "type": "Battery",
-            "#description": "Legacy additional infrastructure in India 2024. Source = PIER2.0 -> EST_Parameters.xlsx (EST_CapAddBounds)",
-            "#type": "PumpedHydro",
             "global_data": {
+                "#description": "Legacy additional infrastructure in India 2024. Source = PIER2.0 -> EST_Parameters.xlsx (EST_CapAddBounds)",
+                "#type": "PumpedHydro",
                 "discharge_can_expand": true,
                 "discharge_can_retire": false,
                 "storage_can_retire": false,

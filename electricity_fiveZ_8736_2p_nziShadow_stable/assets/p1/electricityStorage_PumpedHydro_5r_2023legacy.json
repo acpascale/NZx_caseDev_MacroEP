@@ -3,7 +3,8 @@
         {
             "type": "Battery",
             "global_data": {
-                "#description": "Legacy infrastructure in India 2023. Source = PIER2.0 -> EST_Parameters.xlsx",
+                "#description": "Legacy additional infrastructure in India 2024. Source = PIER2.0 -> EST_Parameters.xlsx (EST_CapAddBounds)",
+                "#type": "PumpedHydro",
                 "discharge_can_expand": true,
                 "discharge_can_retire": false,
                 "storage_can_retire": false,
@@ -21,6 +22,7 @@
                 "discharge_efficiency": 0.866,
                 "charge_efficiency": 0.866,
                 "discharge_max_flow_fraction": 0.166666667,
+                "charge_max_flow_fraction": 0.166666667,
                 "#finance_source": "Million Rupees, Source = PIER2.0 -> EST_Parameters.xlsx",
                 "#common_finance": "No Fixed O&M in PIER ; ",
                 "#legacy&new_finance": "Annualized Investment cost = Legacy/new Fixed Annualized Capital Cost * 1e3 ",
@@ -30,9 +32,9 @@
                 "lifetime": 20,
                 "discharge_fixed_om_cost": 0,
                 "variable_om_cost": 0,
-                "discharge_annualized_investment_cost": 1900.130322,
-                "#capital_recovery_period": "Added in order to carry annualized_investment_cost into cost accounting of future periods",
-                "##capital_recovery_period": 20
+                "discharge_annualized_investment_cost": 1.900130322,
+                "#discharge_capital_recovery_period": "added to explicity highlight the use of the default value = 1 in reporting costs for model period 1, this used to compare directly with PIER2.0 costs in year 1",
+                "discharge_capital_recovery_period": 1
             },
             "instance_data": [
                 {
@@ -53,22 +55,22 @@
                     "id": "ER_pumpedhydro_legacy",
                     "location": "ER",
                     "storage_existing_capacity": 0,
-                    "discharge_min_capacity": 5400,
-                    "discharge_max_capacity": 5400
+                    "discharge_min_capacity": 5400.000,
+                    "discharge_max_capacity": 5400.000
                 },
                 {
                     "id": "WR_pumpedhydro_legacy",
                     "location": "WR",
                     "storage_existing_capacity": 0,
-                    "discharge_min_capacity": 11004,
-                    "discharge_max_capacity": 11004
+                    "discharge_min_capacity": 11004.000,
+                    "discharge_max_capacity": 11004.000
                 },
                 {
                     "id": "SR_pumpedhydro_legacy",
                     "location": "SR",
                     "storage_existing_capacity": 0,
-                    "discharge_min_capacity": 12034,
-                    "discharge_max_capacity": 12034
+                    "discharge_min_capacity": 12033.600,
+                    "discharge_max_capacity": 12033.600
                 },
                 {
                     "id": "NR_pumpedhydro",

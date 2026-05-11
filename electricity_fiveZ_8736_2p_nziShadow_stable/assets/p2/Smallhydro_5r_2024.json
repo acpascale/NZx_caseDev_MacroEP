@@ -30,15 +30,15 @@
                 "discharge_efficiency": 0.990,
                 "#finance_source": "Million Rupees, Source = PIER2.0 -> ECT_EfficiencyCostMaxAnnualUF.xlsx ; PIER costs for 1 GW Capacity all, Macro in MW",
                 "discharge_capacity_size": 1,
-                "discharge_fixed_om_cost": 2973.402196,
+                "discharge_fixed_om_cost": 2.973402196,
                 "variable_om_cost": 0,
-                "discharge_investment_cost": 99608.97,
+                "discharge_investment_cost": 99.60897,
                 "discharge_capital_recovery_period": 35,
                 "discharge_wacc": 0.0835,
                 "inflow_availability": {
                     "timeseries": {
                         "header": "EG_SH_2024_ALL",
-                        "path": "system/availability_PIER8760_5period.csv"
+                        "path": "system/availability/2024.csv"
                     }
                 }
             },
@@ -47,46 +47,46 @@
                     "id": "NR_conventional_hydroelectric_small",
                     "location": "NR",
                     "discharge_existing_capacity": 0,
-                    "discharge_min_capacity": 28,
-                    "discharge_max_capacity": 28
+                    "discharge_min_capacity": 28.000,
+                    "discharge_max_capacity": 28.000
                 },
                 {
                     "id": "NER_conventional_hydroelectric_small",
                     "location": "NER",
                     "discharge_existing_capacity": 0,
-                    "discharge_min_capacity": 10,
-                    "discharge_max_capacity": 10
+                    "discharge_min_capacity": 10.000,
+                    "discharge_max_capacity": 10.000
                 },
                 {
                     "id": "ER_conventional_hydroelectric_small",
                     "location": "ER",
                     "discharge_existing_capacity": 0,
-                    "discharge_min_capacity": 6,
-                    "discharge_max_capacity": 6
+                    "discharge_min_capacity": 6.000,
+                    "discharge_max_capacity": 6.000
                 },
                 {
                     "id": "WR_conventional_hydroelectric_small",
                     "location": "WR",
                     "discharge_existing_capacity": 0,
-                    "discharge_min_capacity": 11,
-                    "discharge_max_capacity": 11
+                    "discharge_min_capacity": 11.000,
+                    "discharge_max_capacity": 11.000
                 },
                 {
                     "id": "SR_conventional_hydroelectric_small",
                     "location": "SR",
                     "discharge_existing_capacity": 0,
-                    "discharge_min_capacity": 17,
-                    "discharge_max_capacity": 17
+                    "discharge_min_capacity": 17.000,
+                    "discharge_max_capacity": 17.000
                 },
                 {
                     "id": "NR_conventional_hydroelectric_small_legacy",
                     "location": "NR",
                     "discharge_min_capacity": 0,
-                    "discharge_max_capacity": 1700,
+                    "discharge_max_capacity": 1698.750,
                     "inflow_availability": {
                         "timeseries": {
                             "header": "EG_SH_2023_ALL",
-                            "path": "system/availability_PIER8760_5period.csv"
+                            "path": "system/availability/2023.csv"
                         }
                     }
                 },
@@ -94,11 +94,11 @@
                     "id": "NER_conventional_hydroelectric_small_legacy",
                     "location": "NER",
                     "discharge_min_capacity": 0,
-                    "discharge_max_capacity": 300,
+                    "discharge_max_capacity": 299.350,
                     "inflow_availability": {
                         "timeseries": {
                             "header": "EG_SH_2023_ALL",
-                            "path": "system/availability_PIER8760_5period.csv"
+                            "path": "system/availability/2023.csv"
                         }
                     }
                 },
@@ -106,11 +106,11 @@
                     "id": "ER_conventional_hydroelectric_small_legacy",
                     "location": "ER",
                     "discharge_min_capacity": 0,
-                    "discharge_max_capacity": 350,
+                    "discharge_max_capacity": 343.990,
                     "inflow_availability": {
                         "timeseries": {
                             "header": "EG_SH_2023_ALL",
-                            "path": "system/availability_PIER8760_5period.csv"
+                            "path": "system/availability/2023.csv"
                         }
                     }
                 },
@@ -118,11 +118,11 @@
                     "id": "WR_conventional_hydroelectric_small_legacy",
                     "location": "WR",
                     "discharge_min_capacity": 0,
-                    "discharge_max_capacity": 700,
+                    "discharge_max_capacity": 672.480,
                     "inflow_availability": {
                         "timeseries": {
                             "header": "EG_SH_2023_ALL",
-                            "path": "system/availability_PIER8760_5period.csv"
+                            "path": "system/availability/2023.csv"
                         }
                     }
                 },
@@ -130,11 +130,11 @@
                     "id": "SR_conventional_hydroelectric_small_legacy",
                     "location": "SR",
                     "discharge_min_capacity": 0,
-                    "discharge_max_capacity": 2000,
+                    "discharge_max_capacity": 1924.480,
                     "inflow_availability": {
                         "timeseries": {
                             "header": "EG_SH_2023_ALL",
-                            "path": "system/availability_PIER8760_5period.csv"
+                            "path": "system/availability/2023.csv"
                         }
                     }
                 }
