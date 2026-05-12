@@ -119,27 +119,107 @@
             "type": "Coal",
             "global_data": {
                 "time_interval": "Coal",
+                "#price_currencySource": "Million Rupees per MWh carrier, Source = PIER2.0 -> PEC_Info.csv",
+                "#id": "seg1 = domestic statewise, seg2 = import <- PEC_ProdImpConstraints.csv. PIER2.0 provides coal at a state level.",
                 "constraints": {
                     "BalanceConstraint": true
                 }
             },
             "instance_data": [
                 {
-                    "id": "coal_source",
-                    "#price_currencySource": "Million Rupees per MWh carrier, Source = PIER2.0 -> PEC_Info.csv",
-                    "#id": "seg1 = domestic, seg2 = import <_ PEC_ProdImpConstraints.csv. PIER2.0 provides on a state level, so need to split!",
+                    "id": "coal_source_NR",
                     "supply": {
                         "segment1": {
                             "price": 0.000326800,
                             "min": 0,
-                            "max": 4640598781
+                            "max": 152585693
                         },
                         "segment2": {
                             "price": 0.001937113,
                             "min": 0,
-                            "max": 2826090023
+                            "max": 0
                         }
                     }
+                },
+                {
+                    "id": "coal_source_NER",
+                    "supply": {
+                        "segment1": {
+                            "price": 0.000326800,
+                            "min": 0,
+                            "max": 0
+                        },
+                        "segment2": {
+                            "price": 0.001937113,
+                            "min": 0,
+                            "max": 0
+                        }
+                    }
+                },
+                {
+                    "id": "coal_source_ER",
+                    "supply": {
+                        "segment1": {
+                            "price": 0.000326800,
+                            "min": 0,
+                            "max": 1997219608
+                        },
+                        "segment2": {
+                            "price": 0.001937113,
+                            "min": 0,
+                            "max": 942030008
+                        }
+                    }
+                },
+                {
+                    "id": "coal_source_WR",
+                    "supply": {
+                        "segment1": {
+                            "price": 0.000326800,
+                            "min": 0,
+                            "max": 2052139126
+                        },
+                        "segment2": {
+                            "price": 0.001937113,
+                            "min": 0,
+                            "max": 942030008
+                        }
+                    }
+                },
+                {
+                    "id": "coal_source_SR",
+                    "supply": {
+                        "segment1": {
+                            "price": 0.000326800,
+                            "min": 0,
+                            "max": 438654353
+                        },
+                        "segment2": {
+                            "price": 0.001937113,
+                            "min": 0,
+                            "max": 942030008
+                        }
+                    }
+                },
+                {
+                    "id": "coal_NR",
+                    "location": "NR"
+                },
+                {
+                    "id": "coal_NER",
+                    "location": "NER"
+                },
+				{
+                    "id": "coal_ER",
+                    "location": "ER"
+                },
+                {
+                    "id": "coal_WR",
+                    "location": "WR"
+                },
+                {
+                    "id": "coal_SR",
+                    "location": "SR"
                 }
             ]
         },

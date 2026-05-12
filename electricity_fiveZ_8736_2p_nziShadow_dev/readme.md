@@ -11,9 +11,11 @@ When this version reaches stable operation and represents a useful update to the
 
 ![Local Image](viz_compare_info/images/PeriodCosts.png) "Macro Period Costs 2023 (left, shows investment annuities for legacy capacity), 2024 (right shows new CAPEX investments in capacity added in 2024 -- not right yet)."
 
+## 12 May 2026
+- Disaggregated coal supply into regional nodes with regional domestic and imported capacities. Added in inter- and intra-regional transfers for coal with costs and losses (and distances... does Macro use distances??). Similar bus-bar arrangement to electricity. Coal transfers in MWh are priced in PIER2.0 in million tonnes. Macro is in MWh, which means there should be different per-MWh prices for domestic and imported coal (with imported being cheaper due to a higher specific energy), but have not made that adjustment. Would need to add separate domestic and import nodes in order to deal with difference in specific energies. Along the same lines, would need to differentiate between generation units burning doemstic vs imported coal in order to deal with differences in GHG profiles (asset instances). Addition of regional upstream T&D added ~11 minutes to run time (18 min instead of 7 min... sp almost 3x prior run time!) A question on whether another structure is possible that would keep needed detail but reduce run time. The importance of India's coal resource and industry is an important aspect of any energy transition in India.
+
 ## Short-term todo list
-1. Dissaggregate coal supply node and add in inter and intra-regional coal transfers and losses
-2. Extend 8760 to 5 period run
+1. Extend 8760 to 5 period run
 3. Make 288-hour branch of stable
 4. Extend 288 to 18 period run 
 

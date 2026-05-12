@@ -5,7 +5,6 @@
                 "#description": "Legacy additional infrastructure in India 2024. Source = PIER2.0 -> ECT_CapAddBounds.xlsx",
                 "timedata": "Coal",
                 "fuel_commodity": "Coal",
-                "fuel_start_vertex": "coal_source",
                 "co2_sink": "co2_sink",
                 "can_retire": false,
                 "can_expand": true,
@@ -44,6 +43,7 @@
             {
                 "id": "NR_coal",
                 "location": "NR",
+                "fuel_start_vertex": "coal_NR",
                 "investment_cost": 75.1121,
                 "existing_capacity": 0,
                 "min_capacity": 0,
@@ -53,6 +53,7 @@
             {
                 "id": "NER_coal",
                 "location": "NER",
+                "fuel_start_vertex": "coal_NER",
                 "investment_cost": 209.7018,
                 "existing_capacity": 0,
                 "min_capacity": 0,
@@ -62,6 +63,7 @@
             {
                 "id": "ER_coal",
                 "location": "ER",
+                "fuel_start_vertex": "coal_ER",
                 "investment_cost": 19.4248,
                 "existing_capacity": 0,
                 "min_capacity": 0,
@@ -70,6 +72,7 @@
             {
                 "id": "WR_coal",
                 "location": "WR",
+                "fuel_start_vertex": "coal_WR",
                 "investment_cost": 19.6846,
                 "existing_capacity": 0,
                 "min_capacity": 0,
@@ -78,6 +81,7 @@
             {
                 "id": "SR_coal",
                 "location": "SR",
+                "fuel_start_vertex": "coal_SR",
                 "investment_cost": 75.1121,
                 "existing_capacity": 0,
                 "min_capacity": 0,
@@ -86,6 +90,7 @@
             {
                 "id": "NR_coal_legacy",
                 "location": "NR",
+                "fuel_start_vertex": "coal_NR",
                 "can_retire": true,
                 "can_expand": false,
                 "min_capacity": 67006.539,
@@ -100,6 +105,7 @@
             {
                 "id": "NER_coal_legacy",
                 "location": "NER",
+                "fuel_start_vertex": "coal_NER",
                 "min_capacity": 0,
                 "max_capacity": 1010.930,    
                 "availability": {
@@ -112,6 +118,7 @@
             {
                 "id": "ER_coal_legacy",
                 "location": "ER",
+                "fuel_start_vertex": "coal_ER",
                 "min_capacity": 0,
                 "max_capacity": 41729.904,    
                 "availability": {
@@ -124,6 +131,7 @@
             {
                 "id": "WR_coal_legacy",
                 "location": "WR",
+                "fuel_start_vertex": "coal_WR",
                 "min_capacity": 0,
                 "max_capacity": 90475.826,    
                 "availability": {
@@ -136,6 +144,7 @@
             {
                 "id": "SR_coal_legacy",
                 "location": "SR",
+                "fuel_start_vertex": "coal_SR",
                 "min_capacity": 0,
                 "max_capacity": 63929.271,    
                 "availability": {

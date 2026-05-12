@@ -26,7 +26,7 @@
                     "transmission_origin": "elec_NR",
                     "transmission_dest": "elec_ER",
                     "#distance": "Needs to be researched and set. 500 is a placeholder.",
-                    "distance": 500,
+                    "distance": 1350,
                     "existing_capacity": 0,
                     "min_capacity": 0,
                     "max_capacity": 0
@@ -37,7 +37,7 @@
                     "transmission_origin": "elec_ER",
                     "transmission_dest": "elec_NR",
                     "#distance": "Needs to be researched and set. 500 is a placeholder.",
-                    "distance": 500,
+                    "distance": 1350,
                     "existing_capacity": 0,
                     "min_capacity": 0,
                     "max_capacity": 0
@@ -48,7 +48,7 @@
                     "transmission_origin": "elec_NR",
                     "transmission_dest": "elec_WR",
                     "#distance": "Needs to be researched and set. 500 is a placeholder.",
-                    "distance": 500,
+                    "distance": 950,
                     "existing_capacity": 0,
                     "min_capacity": 0,
                     "max_capacity": 0
@@ -59,7 +59,7 @@
                     "transmission_origin": "elec_WR",
                     "transmission_dest": "elec_NR",
                     "#distance": "Needs to be researched and set. 500 is a placeholder.",
-                    "distance": 500,
+                    "distance": 950,
                     "existing_capacity": 0,
                     "min_capacity": 0,
                     "max_capacity": 0
@@ -70,7 +70,7 @@
                     "transmission_origin": "elec_ER",
                     "transmission_dest": "elec_NER",
                     "#distance": "Needs to be researched and set. 500 is a placeholder.",
-                    "distance": 500,
+                    "distance": 1350,
                     "existing_capacity": 0,
                     "min_capacity": 90,
                     "max_capacity": 90
@@ -82,7 +82,7 @@
                     "transmission_origin": "elec_NER",
                     "transmission_dest": "elec_ER",
                     "#distance": "Needs to be researched and set. 500 is a placeholder.",
-                    "distance": 500,
+                    "distance": 1350,
                     "existing_capacity": 0,
                     "min_capacity": 90,
                     "max_capacity": 90
@@ -94,7 +94,7 @@
                     "transmission_origin": "elec_WR",
                     "transmission_dest": "elec_ER",
                     "#distance": "Needs to be researched and set. 500 is a placeholder.",
-                    "distance": 500,
+                    "distance": 1300,
                     "existing_capacity": 0,
                     "min_capacity": 0,
                     "max_capacity": 0
@@ -106,7 +106,7 @@
                     "transmission_origin": "elec_ER",
                     "transmission_dest": "elec_WR",
                     "#distance": "Needs to be researched and set. 500 is a placeholder.",
-                    "distance": 500,
+                    "distance": 1300,
                     "existing_capacity": 0,
                     "min_capacity": 0,
                     "max_capacity": 0
@@ -118,7 +118,7 @@
                     "transmission_origin": "elec_WR",
                     "transmission_dest": "elec_SR",
                     "#distance": "Needs to be researched and set. 500 is a placeholder.",
-                    "distance": 500,
+                    "distance": 1150,
                     "existing_capacity": 0,
                     "min_capacity": 4200,
                     "max_capacity": 4200
@@ -130,7 +130,7 @@
                     "transmission_origin": "elec_SR",
                     "transmission_dest": "elec_WR",
                     "#distance": "Needs to be researched and set. 500 is a placeholder.",
-                    "distance": 500,
+                    "distance": 1150,
                     "existing_capacity": 0,
                     "min_capacity": 3752,
                     "max_capacity": 3752
@@ -142,7 +142,7 @@
                     "transmission_origin": "elec_ER",
                     "transmission_dest": "elec_SR",
                     "#distance": "Needs to be researched and set. 500 is a placeholder.",
-                    "distance": 500,
+                    "distance": 1600,
                     "existing_capacity": 0,
                     "min_capacity": 0,
                     "max_capacity": 0
@@ -154,7 +154,7 @@
                     "transmission_origin": "elec_SR",
                     "transmission_dest": "elec_ER",
                     "#distance": "Needs to be researched and set. 500 is a placeholder.",
-                    "distance": 500,
+                    "distance": 1600,
                     "existing_capacity": 0,
                     "min_capacity": 0,
                     "max_capacity": 0
@@ -166,7 +166,7 @@
                     "transmission_origin": "elec_NR",
                     "transmission_dest": "elec_NER",
                     "#distance": "Needs to be researched and set. 500 is a placeholder.",
-                    "distance": 500,
+                    "distance": 2150,
                     "existing_capacity": 0,
                     "min_capacity": 0,
                     "max_capacity": 0
@@ -178,7 +178,7 @@
                     "transmission_origin": "elec_NER",
                     "transmission_dest": "elec_NR",
                     "#distance": "Needs to be researched and set. 500 is a placeholder.",
-                    "distance": 500,
+                    "distance": 2150,
                     "existing_capacity": 0,
                     "min_capacity": 0,
                     "max_capacity": 0
@@ -190,7 +190,7 @@
                     "transmission_origin": "elec_NR",
                     "transmission_dest": "elec_ER",
                     "#distance": "Needs to be researched and set. 500 is a placeholder.",
-                    "distance": 500,
+                    "distance": 1350,
                     "existing_capacity": 0,
                     "max_capacity": 19530,
                     "min_capacity": 0
@@ -201,7 +201,7 @@
                     "transmission_origin": "elec_ER",
                     "transmission_dest": "elec_NR",
                     "#distance": "Needs to be researched and set. 500 is a placeholder.",
-                    "distance": 500,
+                    "distance": 1350,
                     "existing_capacity": 0,
                     "max_capacity": 22530,
                     "min_capacity": 0
@@ -212,7 +212,7 @@
                     "transmission_origin": "elec_NR",
                     "transmission_dest": "elec_WR",
                     "#distance": "Needs to be researched and set. 500 is a placeholder.",
-                    "distance": 500,
+                    "distance": 950,
                     "existing_capacity": 0,
                     "max_capacity": 36720,
                     "min_capacity": 0
@@ -223,7 +223,7 @@
                     "transmission_origin": "elec_WR",
                     "transmission_dest": "elec_NR",
                     "#distance": "Needs to be researched and set. 500 is a placeholder.",
-                    "distance": 500,
+                    "distance": 950,
                     "existing_capacity": 0,
                     "max_capacity": 32573,
                     "min_capacity": 0
@@ -234,7 +234,7 @@
                     "transmission_origin": "elec_ER",
                     "transmission_dest": "elec_NER",
                     "#distance": "Needs to be researched and set. 500 is a placeholder.",
-                    "distance": 500,
+                    "distance": 1350,
                     "existing_capacity": 0,
                     "max_capacity": 2860,
                     "min_capacity": 0
@@ -246,7 +246,7 @@
                     "transmission_origin": "elec_NER",
                     "transmission_dest": "elec_ER",
                     "#distance": "Needs to be researched and set. 500 is a placeholder.",
-                    "distance": 500,
+                    "distance": 1350,
                     "existing_capacity": 0,
                     "max_capacity": 2860,
                     "min_capacity": 0
@@ -258,7 +258,7 @@
                     "transmission_origin": "elec_WR",
                     "transmission_dest": "elec_ER",
                     "#distance": "Needs to be researched and set. 500 is a placeholder.",
-                    "distance": 500,
+                    "distance": 1300,
                     "existing_capacity": 0,
                     "max_capacity": 21190,
                     "min_capacity": 0
@@ -270,7 +270,7 @@
                     "transmission_origin": "elec_ER",
                     "transmission_dest": "elec_WR",
                     "#distance": "Needs to be researched and set. 500 is a placeholder.",
-                    "distance": 500,
+                    "distance": 1300,
                     "existing_capacity": 0,
                     "max_capacity": 21190,
                     "min_capacity": 0
@@ -282,7 +282,7 @@
                     "transmission_origin": "elec_WR",
                     "transmission_dest": "elec_SR",
                     "#distance": "Needs to be researched and set. 500 is a placeholder.",
-                    "distance": 500,
+                    "distance": 1150,
                     "existing_capacity": 0,
                     "max_capacity": 18120,
                     "min_capacity": 0
@@ -294,7 +294,7 @@
                     "transmission_origin": "elec_SR",
                     "transmission_dest": "elec_WR",
                     "#distance": "Needs to be researched and set. 500 is a placeholder.",
-                    "distance": 500,
+                    "distance": 1150,
                     "existing_capacity": 0,
                     "max_capacity": 16187,
                     "min_capacity": 0
@@ -306,7 +306,7 @@
                     "transmission_origin": "elec_ER",
                     "transmission_dest": "elec_SR",
                     "#distance": "Needs to be researched and set. 500 is a placeholder.",
-                    "distance": 500,
+                    "distance": 1600,
                     "existing_capacity": 0,
                     "max_capacity": 7830,
                     "min_capacity": 0
@@ -318,7 +318,7 @@
                     "transmission_origin": "elec_SR",
                     "transmission_dest": "elec_ER",
                     "#distance": "Needs to be researched and set. 500 is a placeholder.",
-                    "distance": 500,
+                    "distance": 1600,
                     "existing_capacity": 0,
                     "max_capacity": 5830,
                     "min_capacity": 0
@@ -330,7 +330,7 @@
                     "transmission_origin": "elec_NR",
                     "transmission_dest": "elec_NER",
                     "#distance": "Needs to be researched and set. 500 is a placeholder.",
-                    "distance": 500,
+                    "distance": 2150,
                     "existing_capacity": 0,
                     "max_capacity": 1500,
                     "min_capacity": 0
@@ -342,7 +342,7 @@
                     "transmission_origin": "elec_NER",
                     "transmission_dest": "elec_NR",
                     "#distance": "Needs to be researched and set. 500 is a placeholder.",
-                    "distance": 500,
+                    "distance": 2150,
                     "existing_capacity": 0,
                     "max_capacity": 3000,
                     "min_capacity": 0
