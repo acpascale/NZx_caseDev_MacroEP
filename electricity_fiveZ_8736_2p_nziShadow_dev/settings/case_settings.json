@@ -1,6 +1,0 @@
-{
-    "PeriodLengths": [1,1],
-    "#PeriodLengths": "2023,2024",
-    "DiscountRate": 0.045,
-    "SolutionAlgorithm": "Monolithic"
-}
