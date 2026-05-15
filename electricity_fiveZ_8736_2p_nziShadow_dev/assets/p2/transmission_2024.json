@@ -22,7 +22,6 @@
             "instance_data": [
                 {
                     "id": "NR_to_ER",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_NR",
                     "transmission_dest": "elec_ER",
                     "#distance": "Needs to be researched and set. 500 is a placeholder.",
@@ -33,7 +32,6 @@
                 },
                 {
                     "id": "ER_to_NR",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_ER",
                     "transmission_dest": "elec_NR",
                     "#distance": "Needs to be researched and set. 500 is a placeholder.",
@@ -44,7 +42,6 @@
                 },
                 {
                     "id": "NR_to_WR",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_NR",
                     "transmission_dest": "elec_WR",
                     "#distance": "Needs to be researched and set. 500 is a placeholder.",
@@ -55,7 +52,6 @@
                 },
                 {
                     "id": "WR_to_NR",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_WR",
                     "transmission_dest": "elec_NR",
                     "#distance": "Needs to be researched and set. 500 is a placeholder.",
@@ -66,7 +62,6 @@
                 },
                 {
                     "id": "ER_to_NER",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_ER",
                     "transmission_dest": "elec_NER",
                     "#distance": "Needs to be researched and set. 500 is a placeholder.",
@@ -78,7 +73,6 @@
                 },
                 {
                     "id": "NER_to_ER",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_NER",
                     "transmission_dest": "elec_ER",
                     "#distance": "Needs to be researched and set. 500 is a placeholder.",
@@ -90,7 +84,6 @@
                 },
                 {
                     "id": "WR_to_ER",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_WR",
                     "transmission_dest": "elec_ER",
                     "#distance": "Needs to be researched and set. 500 is a placeholder.",
@@ -102,7 +95,6 @@
                 },
                 {
                     "id": "ER_to_WR",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_ER",
                     "transmission_dest": "elec_WR",
                     "#distance": "Needs to be researched and set. 500 is a placeholder.",
@@ -114,7 +106,6 @@
                 },
                 {
                     "id": "WR_to_SR",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_WR",
                     "transmission_dest": "elec_SR",
                     "#distance": "Needs to be researched and set. 500 is a placeholder.",
@@ -126,7 +117,6 @@
                 },
                 {
                     "id": "SR_to_WR",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_SR",
                     "transmission_dest": "elec_WR",
                     "#distance": "Needs to be researched and set. 500 is a placeholder.",
@@ -138,7 +128,6 @@
                 },
                 {
                     "id": "ER_to_SR",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_ER",
                     "transmission_dest": "elec_SR",
                     "#distance": "Needs to be researched and set. 500 is a placeholder.",
@@ -150,7 +139,6 @@
                 },
                 {
                     "id": "SR_to_ER",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_SR",
                     "transmission_dest": "elec_ER",
                     "#distance": "Needs to be researched and set. 500 is a placeholder.",
@@ -162,7 +150,6 @@
                 },
                 {
                     "id": "NR_to_NER",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_NR",
                     "transmission_dest": "elec_NER",
                     "#distance": "Needs to be researched and set. 500 is a placeholder.",
@@ -174,7 +161,6 @@
                 },
                 {
                     "id": "NER_to_NR",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_NER",
                     "transmission_dest": "elec_NR",
                     "#distance": "Needs to be researched and set. 500 is a placeholder.",
@@ -186,7 +172,6 @@
                 },
                 {
                     "id": "NR_to_ER_legacy",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_NR",
                     "transmission_dest": "elec_ER",
                     "#distance": "Needs to be researched and set. 500 is a placeholder.",
@@ -197,7 +182,6 @@
                 },
                 {
                     "id": "ER_to_NR_legacy",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_ER",
                     "transmission_dest": "elec_NR",
                     "#distance": "Needs to be researched and set. 500 is a placeholder.",
@@ -208,7 +192,6 @@
                 },
                 {
                     "id": "NR_to_WR_legacy",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_NR",
                     "transmission_dest": "elec_WR",
                     "#distance": "Needs to be researched and set. 500 is a placeholder.",
@@ -219,7 +202,6 @@
                 },
                 {
                     "id": "WR_to_NR_legacy",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_WR",
                     "transmission_dest": "elec_NR",
                     "#distance": "Needs to be researched and set. 500 is a placeholder.",
@@ -230,7 +212,6 @@
                 },
                 {
                     "id": "ER_to_NER_legacy",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_ER",
                     "transmission_dest": "elec_NER",
                     "#distance": "Needs to be researched and set. 500 is a placeholder.",
@@ -242,7 +223,6 @@
                 },
                 {
                     "id": "NER_to_ER_legacy",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_NER",
                     "transmission_dest": "elec_ER",
                     "#distance": "Needs to be researched and set. 500 is a placeholder.",
@@ -254,7 +234,6 @@
                 },
                 {
                     "id": "WR_to_ER_legacy",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_WR",
                     "transmission_dest": "elec_ER",
                     "#distance": "Needs to be researched and set. 500 is a placeholder.",
@@ -266,7 +245,6 @@
                 },
                 {
                     "id": "ER_to_WR_legacy",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_ER",
                     "transmission_dest": "elec_WR",
                     "#distance": "Needs to be researched and set. 500 is a placeholder.",
@@ -278,7 +256,6 @@
                 },
                 {
                     "id": "WR_to_SR_legacy",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_WR",
                     "transmission_dest": "elec_SR",
                     "#distance": "Needs to be researched and set. 500 is a placeholder.",
@@ -290,7 +267,6 @@
                 },
                 {
                     "id": "SR_to_WR_legacy",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_SR",
                     "transmission_dest": "elec_WR",
                     "#distance": "Needs to be researched and set. 500 is a placeholder.",
@@ -302,7 +278,6 @@
                 },
                 {
                     "id": "ER_to_SR_legacy",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_ER",
                     "transmission_dest": "elec_SR",
                     "#distance": "Needs to be researched and set. 500 is a placeholder.",
@@ -314,7 +289,6 @@
                 },
                 {
                     "id": "SR_to_ER_legacy",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_SR",
                     "transmission_dest": "elec_ER",
                     "#distance": "Needs to be researched and set. 500 is a placeholder.",
@@ -326,7 +300,6 @@
                 },
                 {
                     "id": "NR_to_NER_legacy",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_NR",
                     "transmission_dest": "elec_NER",
                     "#distance": "Needs to be researched and set. 500 is a placeholder.",
@@ -338,7 +311,6 @@
                 },
                 {
                     "id": "NER_to_NR_legacy",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_NER",
                     "transmission_dest": "elec_NR",
                     "#distance": "Needs to be researched and set. 500 is a placeholder.",
@@ -369,7 +341,6 @@
             "instance_data": [
                 {
                     "id": "NR_legacy_distribution",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_NR",
                     "transmission_dest": "load_NR",
                     "#distance": "Needs to be researched and set. 500 is a placeholder. Losses  total or per x km",
@@ -380,7 +351,6 @@
                 },
                 {
                     "id": "NER_legacy_distribution",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_NER",
                     "transmission_dest": "load_NER",
                     "#distance": "Needs to be researched and set. 500 is a placeholder. Not sure if it will be used in estimating losses. Is loss total or per x km",
@@ -391,7 +361,6 @@
                 },
                 {
                     "id": "ER_legacy_distribution",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_ER",
                     "transmission_dest": "load_ER",
                     "#distance": "Needs to be researched and set. 500 is a placeholder. Not sure if it will be used in estimating losses. Is loss total or per x km",
@@ -402,7 +371,6 @@
                 },
                 {
                     "id": "WR_legacy_distribution",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_WR",
                     "transmission_dest": "load_WR",
                     "#distance": "Needs to be researched and set. 500 is a placeholder. Not sure if it will be used in estimating losses. Is loss total or per x km",
@@ -413,7 +381,6 @@
                 },
                 {
                     "id": "SR_legacy_distribution",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_SR",
                     "transmission_dest": "load_SR",
                     "#distance": "Needs to be researched and set. 500 is a placeholder. Not sure if it will be used in estimating losses. Is loss total or per x km",

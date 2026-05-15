@@ -37,35 +37,35 @@
             },
             "instance_data": [
                 {
-                    "id": "NR_battery",
+                    "id": "NR_2h_battery",
                     "location": "NR",
                     "discharge_existing_capacity": 0,
                     "discharge_min_capacity": 0,
                     "discharge_max_capacity": 89.882
                 },
                 {
-                    "id": "NER_battery",
+                    "id": "NER_2h_battery",
                     "location": "NER",
                     "discharge_existing_capacity": 0,
                     "discharge_min_capacity": 0,
                     "discharge_max_capacity": 15.333
                 },
                 {
-                    "id": "ER_battery",
+                    "id": "ER_2h_battery",
                     "location": "ER",
                     "discharge_existing_capacity": 0,
                     "discharge_min_capacity": 0,
                     "discharge_max_capacity": 17.739
                 },
                 {
-                    "id": "WR_battery",
+                    "id": "WR_2h_battery",
                     "location": "WR",
                     "discharge_existing_capacity": 0,
                     "discharge_min_capacity": 0,
                     "discharge_max_capacity": 48.356
                 },
                 {
-                    "id": "SR_battery",
+                    "id": "SR_2h_battery",
                     "location": "SR",
                     "discharge_existing_capacity": 0,
                     "discharge_min_capacity": 0,
@@ -111,35 +111,35 @@
             },
             "instance_data": [
                 {
-                    "id": "NR_battery",
+                    "id": "NR_4h_battery",
                     "location": "NR",
                     "discharge_existing_capacity": 0,
                     "discharge_min_capacity": 0,
                     "discharge_max_capacity": 179.765
                 },
                 {
-                    "id": "NER_battery",
+                    "id": "NER_4h_battery",
                     "location": "NER",
                     "discharge_existing_capacity": 0,
                     "discharge_min_capacity": 0,
                     "discharge_max_capacity": 30.666
                 },
                 {
-                    "id": "ER_battery",
+                    "id": "ER_4h_battery",
                     "location": "ER",
                     "discharge_existing_capacity": 0,
                     "discharge_min_capacity": 0,
                     "discharge_max_capacity": 35.477
                 },
                 {
-                    "id": "WR_battery",
+                    "id": "WR_4h_battery",
                     "location": "WR",
                     "discharge_existing_capacity": 0,
                     "discharge_min_capacity": 0,
                     "discharge_max_capacity": 96.712
                 },
                 {
-                    "id": "SR_battery",
+                    "id": "SR_4h_battery",
                     "location": "SR",
                     "discharge_existing_capacity": 0,
                     "discharge_min_capacity": 0,
@@ -185,35 +185,35 @@
             },
             "instance_data": [
                 {
-                    "id": "NR_battery",
+                    "id": "NR_6h_battery",
                     "location": "NR",
                     "discharge_existing_capacity": 0,
                     "discharge_min_capacity": 0,
                     "discharge_max_capacity": 269.647
                 },
                 {
-                    "id": "NER_battery",
+                    "id": "NER_6h_battery",
                     "location": "NER",
                     "discharge_existing_capacity": 0,
                     "discharge_min_capacity": 0,
                     "discharge_max_capacity": 45.998
                 },
                 {
-                    "id": "ER_battery",
+                    "id": "ER_6h_battery",
                     "location": "ER",
                     "discharge_existing_capacity": 0,
                     "discharge_min_capacity": 0,
                     "discharge_max_capacity": 53.216
                 },
                 {
-                    "id": "WR_battery",
+                    "id": "WR_6h_battery",
                     "location": "WR",
                     "discharge_existing_capacity": 0,
                     "discharge_min_capacity": 0,
                     "discharge_max_capacity": 145.068
                 },
                 {
-                    "id": "SR_battery",
+                    "id": "SR_6h_battery",
                     "location": "SR",
                     "discharge_existing_capacity": 0,
                     "discharge_min_capacity": 0,

@@ -24,7 +24,6 @@
             "instance_data": [
                 {
                     "id": "NR_to_ER_legacy",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_NR",
                     "transmission_dest": "elec_ER",
                     "#distance": "Using inter-regional distances for coal transfer from EC_Transfers.xlsx . To be updated for electricity..",
@@ -35,7 +34,6 @@
                 },
                 {
                     "id": "ER_to_NR_legacy",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_ER",
                     "transmission_dest": "elec_NR",
                     "#distance": "Using inter-regional distances for coal transfer from EC_Transfers.xlsx . To be updated for electricity..",
@@ -46,7 +44,6 @@
                 },
                 {
                     "id": "NR_to_WR_legacy",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_NR",
                     "transmission_dest": "elec_WR",
                     "#distance": "Using inter-regional distances for coal transfer from EC_Transfers.xlsx . To be updated for electricity..",
@@ -57,7 +54,6 @@
                 },
                 {
                     "id": "WR_to_NR_legacy",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_WR",
                     "transmission_dest": "elec_NR",
                     "#distance": "Using inter-regional distances for coal transfer from EC_Transfers.xlsx . To be updated for electricity..",
@@ -68,7 +64,6 @@
                 },
                 {
                     "id": "ER_to_NER_legacy",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_ER",
                     "transmission_dest": "elec_NER",
                     "#distance": "Using inter-regional distances for coal transfer from EC_Transfers.xlsx . To be updated for electricity..",
@@ -80,7 +75,6 @@
                 },
                 {
                     "id": "NER_to_ER_legacy",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_NER",
                     "transmission_dest": "elec_ER",
                     "#distance": "Using inter-regional distances for coal transfer from EC_Transfers.xlsx . To be updated for electricity..",
@@ -92,7 +86,6 @@
                 },
                 {
                     "id": "WR_to_ER_legacy",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_WR",
                     "transmission_dest": "elec_ER",
                     "#distance": "Using inter-regional distances for coal transfer from EC_Transfers.xlsx . To be updated for electricity..",
@@ -104,7 +97,6 @@
                 },
                 {
                     "id": "ER_to_WR_legacy",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_ER",
                     "transmission_dest": "elec_WR",
                     "#distance": "Using inter-regional distances for coal transfer from EC_Transfers.xlsx . To be updated for electricity..",
@@ -116,7 +108,6 @@
                 },
                 {
                     "id": "WR_to_SR_legacy",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_WR",
                     "transmission_dest": "elec_SR",
                     "#distance": "Using inter-regional distances for coal transfer from EC_Transfers.xlsx . To be updated for electricity..",
@@ -128,7 +119,6 @@
                 },
                 {
                     "id": "SR_to_WR_legacy",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_SR",
                     "transmission_dest": "elec_WR",
                     "#distance": "Using inter-regional distances for coal transfer from EC_Transfers.xlsx . To be updated for electricity..",
@@ -140,7 +130,6 @@
                 },
                 {
                     "id": "ER_to_SR_legacy",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_ER",
                     "transmission_dest": "elec_SR",
                     "#distance": "Using inter-regional distances for coal transfer from EC_Transfers.xlsx . To be updated for electricity..",
@@ -152,7 +141,6 @@
                 },
                 {
                     "id": "SR_to_ER_legacy",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_SR",
                     "transmission_dest": "elec_ER",
                     "#distance": "Using inter-regional distances for coal transfer from EC_Transfers.xlsx . To be updated for electricity..",
@@ -164,7 +152,6 @@
                 },
                 {
                     "id": "NR_to_NER_legacy",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_NR",
                     "transmission_dest": "elec_NER",
                     "#distance": "Using inter-regional distances for coal transfer from EC_Transfers.xlsx . To be updated for electricity..",
@@ -176,7 +163,6 @@
                 },
                 {
                     "id": "NER_to_NR_legacy",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_NER",
                     "transmission_dest": "elec_NR",
                     "#distance": "Using inter-regional distances for coal transfer from EC_Transfers.xlsx . To be updated for electricity..",
@@ -188,7 +174,6 @@
                 },
                 {
                     "id": "NR_to_ER",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_NR",
                     "transmission_dest": "elec_ER",
                     "#distance": "Using inter-regional distances for coal transfer from EC_Transfers.xlsx . To be updated for electricity..",
@@ -199,7 +184,6 @@
                 },
                 {
                     "id": "ER_to_NR",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_ER",
                     "transmission_dest": "elec_NR",
                     "#distance": "Using inter-regional distances for coal transfer from EC_Transfers.xlsx . To be updated for electricity..",
@@ -210,7 +194,6 @@
                 },
                 {
                     "id": "NR_to_WR",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_NR",
                     "transmission_dest": "elec_WR",
                     "#distance": "Using inter-regional distances for coal transfer from EC_Transfers.xlsx . To be updated for electricity..",
@@ -221,7 +204,6 @@
                 },
                 {
                     "id": "WR_to_NR",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_WR",
                     "transmission_dest": "elec_NR",
                     "#distance": "Using inter-regional distances for coal transfer from EC_Transfers.xlsx . To be updated for electricity..",
@@ -232,7 +214,6 @@
                 },
                 {
                     "id": "ER_to_NER",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_ER",
                     "transmission_dest": "elec_NER",
                     "#distance": "Using inter-regional distances for coal transfer from EC_Transfers.xlsx . To be updated for electricity..",
@@ -244,7 +225,6 @@
                 },
                 {
                     "id": "NER_to_ER",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_NER",
                     "transmission_dest": "elec_ER",
                     "#distance": "Using inter-regional distances for coal transfer from EC_Transfers.xlsx . To be updated for electricity..",
@@ -256,7 +236,6 @@
                 },
                 {
                     "id": "WR_to_ER",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_WR",
                     "transmission_dest": "elec_ER",
                     "#distance": "Using inter-regional distances for coal transfer from EC_Transfers.xlsx . To be updated for electricity..",
@@ -268,7 +247,6 @@
                 },
                 {
                     "id": "ER_to_WR",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_ER",
                     "transmission_dest": "elec_WR",
                     "#distance": "Using inter-regional distances for coal transfer from EC_Transfers.xlsx . To be updated for electricity..",
@@ -280,7 +258,6 @@
                 },
                 {
                     "id": "WR_to_SR",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_WR",
                     "transmission_dest": "elec_SR",
                     "#distance": "Using inter-regional distances for coal transfer from EC_Transfers.xlsx . To be updated for electricity..",
@@ -292,7 +269,6 @@
                 },
                 {
                     "id": "SR_to_WR",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_SR",
                     "transmission_dest": "elec_WR",
                     "#distance": "Using inter-regional distances for coal transfer from EC_Transfers.xlsx . To be updated for electricity..",
@@ -304,7 +280,6 @@
                 },
                 {
                     "id": "ER_to_SR",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_ER",
                     "transmission_dest": "elec_SR",
                     "#distance": "Using inter-regional distances for coal transfer from EC_Transfers.xlsx . To be updated for electricity..",
@@ -316,7 +291,6 @@
                 },
                 {
                     "id": "SR_to_ER",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_SR",
                     "transmission_dest": "elec_ER",
                     "#distance": "Using inter-regional distances for coal transfer from EC_Transfers.xlsx . To be updated for electricity..",
@@ -328,7 +302,6 @@
                 },
                 {
                     "id": "NR_to_NER",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_NR",
                     "transmission_dest": "elec_NER",
                     "#distance": "Using inter-regional distances for coal transfer from EC_Transfers.xlsx . To be updated for electricity..",
@@ -340,7 +313,6 @@
                 },
                 {
                     "id": "NER_to_NR",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_NER",
                     "transmission_dest": "elec_NR",
                     "#distance": "Using inter-regional distances for coal transfer from EC_Transfers.xlsx . To be updated for electricity..",
@@ -371,7 +343,6 @@
             "instance_data": [
                 {
                     "id": "NR_legacy_distribution",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_NR",
                     "transmission_dest": "load_NR",
                     "#distance": "Using inter-regional distances for coal transfer from EC_Transfers.xlsx . To be updated for electricity.. Losses  total or per x km",
@@ -382,7 +353,6 @@
                 },
                 {
                     "id": "NER_legacy_distribution",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_NER",
                     "transmission_dest": "load_NER",
                     "#distance": "Using inter-regional distances for coal transfer from EC_Transfers.xlsx . To be updated for electricity.. Not sure if it will be used in estimating losses. Is loss total or per x km",
@@ -393,7 +363,6 @@
                 },
                 {
                     "id": "ER_legacy_distribution",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_ER",
                     "transmission_dest": "load_ER",
                     "#distance": "Using inter-regional distances for coal transfer from EC_Transfers.xlsx . To be updated for electricity.. Not sure if it will be used in estimating losses. Is loss total or per x km",
@@ -404,7 +373,6 @@
                 },
                 {
                     "id": "WR_legacy_distribution",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_WR",
                     "transmission_dest": "load_WR",
                     "#distance": "Using inter-regional distances for coal transfer from EC_Transfers.xlsx . To be updated for electricity.. Not sure if it will be used in estimating losses. Is loss total or per x km",
@@ -415,7 +383,6 @@
                 },
                 {
                     "id": "SR_legacy_distribution",
-                    "commodity": "Electricity",
                     "transmission_origin": "elec_SR",
                     "transmission_dest": "load_SR",
                     "#distance": "Using inter-regional distances for coal transfer from EC_Transfers.xlsx . To be updated for electricity.. Not sure if it will be used in estimating losses. Is loss total or per x km",

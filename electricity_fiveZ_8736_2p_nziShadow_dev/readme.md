@@ -11,16 +11,39 @@ When this version reaches stable operation and represents a useful update to the
 
 ![Local Image](viz_compare_info/images/PeriodCosts.png) "Macro Period Costs 2023 (left, shows investment annuities for legacy capacity), 2024 (right shows new CAPEX investments in capacity added in 2024 -- not right yet)."
 
+## 15 May 2026
+- Minor updates on coal and transmission assets to
+    - correct fuel use of legacy coal plants
+    - remove redundant lines in transmission and storage instances
+    - correct investment cost of new coal plants (none) in period 2 (2024)
+    - update images shown in this readme
+
+## 13 May 2026
+2p Test Runs
+- 1
+    - "SolutionAlgorithm": "Monolithic"
+    - run_benders.jl
+    - 50 minutes (running with Highs not Gurobi ... perhaps defining an impossible combination led to a Highs default?)
+- 2 
+    - "SolutionAlgorithm": "Benders"
+    - run_benders.jl
+    - 1h 45 minutes (Macro selected Gurobi not Highs this time, as instructured in run_benders.jl, perhaps my settings for benders led to the long run time)
+- 3 (mirroring last run yesterday)
+    - "SolutionAlgorithm": "Monolithic"
+    - run.jl
+    - 16 minutes (using Gurobi)
+
 ## 12 May 2026
 - Disaggregated coal supply into regional nodes with regional domestic and imported capacities. Added in inter- and intra-regional transfers for coal with costs and losses (and distances... does Macro use distances??). Similar bus-bar arrangement to electricity. Coal transfers in MWh are priced in PIER2.0 in million tonnes. Macro is in MWh, which means there should be different per-MWh prices for domestic and imported coal (with imported being cheaper due to a higher specific energy), but have not made that adjustment. Would need to add separate domestic and import nodes in order to deal with difference in specific energies. Along the same lines, would need to differentiate between generation units burning doemstic vs imported coal in order to deal with differences in GHG profiles (asset instances). Addition of regional upstream T&D added ~11 minutes to run time (18 min instead of 7 min... sp almost 3x prior run time!) A question on whether another structure is possible that would keep needed detail but reduce run time. The importance of India's coal resource and industry is an important aspect of any energy transition in India.
 
 ## Short-term todo list
-1. Extend 8760 to 5 period run
-3. Make 288-hour branch of stable
-4. Extend 288 to 18 period run 
+1. Extend 8760 to 6 period run (see electricity_fiveZ_8736_6p_nziShadow_dev)
+2. Compare primary energy use for power generation to make sure that case primary energy results are similar to PIER2.0
+3. Make 288-hour branch of 2p
+4. Extend 288 to 18 period (18p) run 
 
 ## Long-term todo list 
-1. Determine why hydro and nuclear have higher generation in Macro 
+1. Determine why hydro and nuclear have higher electricity generation in Macro 
 2. Expand Macro case to include demand for other energy carriers -- disaggregating demand appropriately for matching with already available/planned Macro modules  
 3. '                  ' upstream infrastructure needed to serve demand
 4. '                  ' industry modules for inclusion in the ootimization 

@@ -115,7 +115,7 @@
             ]
                     
         },
-                {
+        {
             "type": "Coal",
             "global_data": {
                 "time_interval": "Coal",
