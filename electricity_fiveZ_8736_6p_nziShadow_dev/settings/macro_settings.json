@@ -1,0 +1,8 @@
+{
+    "AutoCreateNodes": false,
+    "AutoCreateLocations": true,
+    "ConstraintScaling": true,
+    "OverwriteResults": true,
+    "OutputLayout": "long",
+    "WriteSubcommodities": true
+}
