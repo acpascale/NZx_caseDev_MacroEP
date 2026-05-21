@@ -127,6 +127,21 @@
             },
             "instance_data": [
                 {
+                    "id": "coal_source_NAT",
+                    "supply": {
+                        "segment1": {
+                            "price": 0.000326800,
+                            "min": 0,
+                            "max": 7684282604
+                        },
+                        "segment2": {
+                            "price": 0.001523975,
+                            "min": 0,
+                            "max": 2826090023
+                        }
+                    }
+                },
+                {
                     "id": "coal_source_NR",
                     "supply": {
                         "segment1": {

@@ -12,8 +12,6 @@
                     "CapacityConstraint": true,
                     "RampingLimitConstraint": true,
                     "MinFlowConstraint": true,
-                    "MinUpTimeConstraint": true,
-                    "MinDownTimeConstraint": true,
                     "MinCapacityConstraint": true,
                     "MaxCapacityConstraint": true
                 },
@@ -21,7 +19,6 @@
                 "emission_rate": 0.40631575,
                 "#fuel_consumption": "adjusted for self consumption",
                 "fuel_consumption": 2.810,
-                "uc": true,
                 "ramp_up_fraction": 0.3,
                 "ramp_down_fraction": 0.3,
                 "#finance_source": "Million Rupees, Source = PIER2.0 -> ECT_EfficiencyCostMaxAnnualUF.xlsx ; PIER costs for 1 GW Capacity all, Macro in MW",

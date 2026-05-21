@@ -1,0 +1,112 @@
+{
+    "case": [
+        {
+            "#period": "1, 2023",
+            "commodities": {
+                "path": "system/commodities.json"
+            },
+            "locations": {
+                "path": "system/locations.json"
+            },
+            "settings": {
+                "path": "settings/macro_settings.json"
+            },
+            "assets": {
+                "path": "assets/p1"
+            },
+            "time_data": {
+                "path": "system/time_data.json"
+            },
+            "nodes": {
+                "path": "system/nodes/nodes_p1.json"
+            }
+        },
+        {
+            "#period": "2, 2024",
+            "commodities": {
+                "path": "system/commodities.json"
+            },
+            "locations": {
+                "path": "system/locations.json"
+            },
+            "settings": {
+                "path": "settings/macro_settings.json"
+            },
+            "assets": {
+                "path": "assets/p2"
+            },
+            "time_data": {
+                "path": "system/time_data.json"
+            },
+            "nodes": {
+                "path": "system/nodes/nodes_p2.json"
+            }
+        },
+        {
+            "#period": "3, 2025",
+            "commodities": {
+                "path": "system/commodities.json"
+            },
+            "locations": {
+                "path": "system/locations.json"
+            },
+            "settings": {
+                "path": "settings/macro_settings.json"
+            },
+            "assets": {
+                "path": "assets/p3"
+            },
+            "time_data": {
+                "path": "system/time_data.json"
+            },
+            "nodes": {
+                "path": "system/nodes/nodes_p3.json"
+            }
+        },
+        {
+            "#period": "4, 2029",
+            "commodities": {
+                "path": "system/commodities.json"
+            },
+            "locations": {
+                "path": "system/locations.json"
+            },
+            "settings": {
+                "path": "settings/macro_settings.json"
+            },
+            "assets": {
+                "path": "assets/p4"
+            },
+            "time_data": {
+                "path": "system/time_data.json"
+            },
+            "nodes": {
+                "path": "system/nodes/nodes_p4.json"
+            }
+        },
+        {
+            "#period": "5, 2034",
+            "commodities": {
+                "path": "system/commodities.json"
+            },
+            "locations": {
+                "path": "system/locations.json"
+            },
+            "settings": {
+                "path": "settings/macro_settings.json"
+            },
+            "assets": {
+                "path": "assets/p5"
+            },
+            "time_data": {
+                "path": "system/time_data.json"
+            },
+            "nodes": {
+                "path": "system/nodes/nodes_p5.json"
+            }
+        }
+    ],
+    "settings": {
+        "path": "settings/case_settings.json"
+    }
+}

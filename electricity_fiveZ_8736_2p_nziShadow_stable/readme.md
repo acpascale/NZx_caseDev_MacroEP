@@ -9,7 +9,10 @@ When this version reaches stable operation and represents a useful update to the
 
 ![Local Image](viz_compare_info/images/PeriodCapacity.png) "Macro Period Capacities 2023 (left), 2024 (right)"
 
-![Local Image](viz_compare_info/images/PeriodCosts.png) "Macro Period Costs 2023 (left, shows investment annuities for legacy capacity), 2024 (right shows new CAPEX investments in capacity added in 2024 -- not right yet)."
+![Local Image](viz_compare_info/images/PeriodCosts.png) "Macro Period Costs 2023 (left, shows investment annuities for legacy capacity), 2024 (right shows annuities added for new capacity, scaled to years between the start of the priod and the remaining model window, so = annuity * 1 year). Variable T&D costs shown in cost accounting are taken from the transit costs in PIER2.0 and likley represent an approximation of the costs of maintaining and growing transmission and distribution networks (covering annuities on T&D). Interpretation to be confirmed with Prayas (Energy Group). Fixed costs in P2 are as expectd wrt model inputs, and only represent O&M on assets built in prior periods. Fuel costs and variable coal costs still TBC against PIER2.0."
+
+## 21 May 2026 
+- Turned UC off and removed UC related constraints from assets previosuly using UC
 
 ## 15 May 2026 (to stable)
 - Minor updates on coal and transmission assets to
