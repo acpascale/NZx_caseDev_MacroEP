@@ -76,7 +76,7 @@
             {
                 "id": "NR_biomass_legacy",
                 "location": "NR",
-                "min_capacity": 3357.150,
+                "min_capacity": 0,
                 "max_capacity": 3357.150,                         
                 "availability": {
                     "timeseries": {
@@ -88,7 +88,7 @@
             {
                 "id": "NER_biomass_legacy",
                 "location": "NER",
-                "min_capacity": 15.800,
+                "min_capacity": 0,
                 "max_capacity": 15.800,                         
                 "availability": {
                     "timeseries": {
@@ -100,7 +100,7 @@
             {
                 "id": "ER_biomass_legacy",
                 "location": "ER",
-                "min_capacity": 560.640,
+                "min_capacity": 0,
                 "max_capacity": 560.640,                         
                 "availability": {
                     "timeseries": {
@@ -112,7 +112,7 @@
             {
                 "id": "WR_biomass_legacy",
                 "location": "WR",
-                "min_capacity": 3161.700,
+                "min_capacity": 0,
                 "max_capacity": 3161.700,                         
                 "availability": {
                     "timeseries": {
@@ -124,7 +124,7 @@
             {
                 "id": "SR_biomass_legacy",
                 "location": "SR",
-                "min_capacity": 3734.750,
+                "min_capacity": 0,
                 "max_capacity": 3734.750,                         
                 "availability": {
                     "timeseries": {

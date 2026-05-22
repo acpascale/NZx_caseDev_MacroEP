@@ -17,7 +17,7 @@ The latest summary of (evolving) model inputs drawn from PIER2.0 [1] can be foun
 
 ## Short-term todo list
 1. Extend 8760 to 6 period run (see electricity_fiveZ_8736_6p_nziShadow_dev)
-2. Compare primary energy use for power generation to make sure that case primary energy results are similar to PIER2.0
+2. Compare primary energy use for power generation to make sure that case primary energy results are similar to PIER2.0 -- TechMin?
 3. Make 288-hour branch of 2p
 4. Extend 288 to 18 period (18p) run 
 
@@ -29,6 +29,29 @@ The latest summary of (evolving) model inputs drawn from PIER2.0 [1] can be foun
 5. Expand plotting code to other output files
 6. How to efficienctly swap fuel characteristics (eg Domestic vs Imported coal without adding entirely new assets)
 
+## 22 May 2026 3p, 6p(4p)
+- Added 3p to repository
+- Started 4p, but incomplete.
+
+## 21 May 2026, 6p & 2p
+- 2p & 6p:
+    - Turned UC off and removed UC related constraints from assets previosuly using UC
+    - changed all hydro lifetimes to "discharge_lifetime" so model works correctly when retirement is allowed
+    - changed all storage lifetimes to "discharge_lifetime" so model works correctly when retirement is allowed
+- 6p:
+    - fix 3p model (put regional coal prices and transfers back in place). Test, visualize, update Tableau wb. 2p,Mono = 5 min, :: 3p,Mono = 30/50 mins!
+    - fix 3p model (fix storage lifetimes, add national coal source, no transfers). Test, visualize, update Tableau wb. 3p,Mono =  10 mins.
+
+## 20 May 2026, 6p and 2p
+- 2p: Minor updates to clean assets and a few small capcity adjustments
+- 6p:
+    - Update storage assets sheet for auto-populate based on year of seleected periods (from PIER2.0), see (viz_compare_info/0_India5region_PIERinfo.xlsx) 
+    - populated 3p model with updated nodes, availability, demand, and assets folders. Tested and visualized using updated Tableau workbook. (soft fail, to do with coal transfers)
+
+## 15 May 2026, 6p (and also works for 2p)
+- Update support workbook (viz_compare_info/0_India5region_PIERinfo.xlsx) to auto-populate paramaters for expanded nodes using PIER2.0 files
+    - Updated nodes sheet for 6 periods
+    - Updated asset sheet for 6 periods
 
 ## 15 May 2026, 2p & 6p (to stable)
 - Minor updates on coal and transmission assets to

@@ -7,7 +7,7 @@
                 "fuel_commodity": "Biomass_Waste",
                 "fuel_start_vertex": "biomass_waste_source",
                 "co2_sink": "co2_sink",
-                "can_retire": true,
+                "can_retire": false,
                 "can_expand": true,
                 "elec_constraints": {
                     "CapacityConstraint": true,
@@ -32,8 +32,8 @@
                 "wacc": 0.0835,                         
                 "availability": {
                     "timeseries": {
-                        "header": "EG_BIOMASS_2025_ALL",
-                        "path": "system/availability/2025.csv"
+                        "header": "EG_BIOMASS_2029_ALL",
+                        "path": "system/availability/2029.csv"
                     }
                 } 
         },
@@ -42,22 +42,22 @@
                 "id": "NR_biomass",
                 "location": "NR",                
                 "existing_capacity": 0,
-                "min_capacity": 286.000,
-                "max_capacity": 286.000
+                "min_capacity": 882.000,
+                "max_capacity": 882.000
             },
             {
                 "id": "NER_biomass",
                 "location": "NER",
                 "existing_capacity": 0,
-                "min_capacity": 2.000,
-                "max_capacity": 2.000
+                "min_capacity": 6.000,
+                "max_capacity": 6.000
             },
             {
                 "id": "ER_biomass",
                 "location": "ER",
                 "existing_capacity": 0,
-                "min_capacity": 46.000,
-                "max_capacity": 46.000
+                "min_capacity": 142.000,
+                "max_capacity": 142.000
             },
             {
                 "id": "WR_biomass",
@@ -70,13 +70,13 @@
                 "id": "SR_biomass",
                 "location": "SR",
                 "existing_capacity": 0,
-                "min_capacity": 320.000,
-                "max_capacity": 320.000
+                "min_capacity": 836.000,
+                "max_capacity": 836.000
             },
             {
                 "id": "NR_biomass_legacy",
                 "location": "NR",
-                "min_capacity": 3357.150,
+                "min_capacity": 0,
                 "max_capacity": 3357.150,                         
                 "availability": {
                     "timeseries": {
@@ -88,7 +88,7 @@
             {
                 "id": "NER_biomass_legacy",
                 "location": "NER",
-                "min_capacity": 15.800,
+                "min_capacity": 0,
                 "max_capacity": 15.800,                         
                 "availability": {
                     "timeseries": {
@@ -100,7 +100,7 @@
             {
                 "id": "ER_biomass_legacy",
                 "location": "ER",
-                "min_capacity": 560.640,
+                "min_capacity": 0,
                 "max_capacity": 560.640,                         
                 "availability": {
                     "timeseries": {
@@ -112,7 +112,7 @@
             {
                 "id": "WR_biomass_legacy",
                 "location": "WR",
-                "min_capacity": 3161.700,
+                "min_capacity": 0,
                 "max_capacity": 3161.700,                         
                 "availability": {
                     "timeseries": {
@@ -124,7 +124,7 @@
             {
                 "id": "SR_biomass_legacy",
                 "location": "SR",
-                "min_capacity": 3734.750,
+                "min_capacity": 0,
                 "max_capacity": 3734.750,                         
                 "availability": {
                     "timeseries": {

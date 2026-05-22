@@ -1,0 +1,223 @@
+{
+    "CarrierTransfers": [
+        {
+            "type": "OneWayTransmissionLink",
+            "global_data": {
+                "#capacity": "Limits will be set by regional availability of resources",
+                "#description": "Source = PIER2.0 -> EC_Transfers.csv",
+                "commodity": "Coal",
+                "#lifetime": "As this is not an asset but a transfer mechanism with costs, lifetime = 100",
+                "lifetime": 100,
+                "investment_cost": 0,
+                "capital_recovery_period": 1, 
+                "wacc": 0,
+                "#loss_fraction": "set in EC_Transfers.csv, different for intra- and inter-regional",
+                "loss_fraction": 0.008,
+                "#variable_om_costs": "Coal transfer costs from EC_Transfers.csv changed from million Rs / million tonne to mil Rs / MWh. Based on domestic specific energy.",    
+                "can_retire": true,
+                "can_expand": true
+            },
+            "instance_data": [
+                {
+                    "id": "coal_NR_to_ER",
+                    "transmission_origin": "coal_source_NR",
+                    "transmission_dest": "coal_ER",
+                    "#distance": "Using inter-regional distances for coal transfer from EC_Transfers.xlsx . ",
+                    "distance": 1350,
+                    "variable_om_cost": 0.000522535
+                },
+                {
+                    "id": "coal_ER_to_NR",
+                    "transmission_origin": "coal_source_ER",
+                    "transmission_dest": "coal_NR",
+                    "#distance": "Using inter-regional distances for coal transfer from EC_Transfers.xlsx . ",
+                    "distance": 1350,
+                    "variable_om_cost": 0.000522535
+                },
+                {
+                    "id": "coal_NR_to_WR",
+                    "transmission_origin": "coal_source_NR",
+                    "transmission_dest": "coal_WR",
+                    "distance": 950,
+                    "variable_om_cost": 0.000390662
+                },
+                {
+                    "id": "coal_WR_to_NR",
+                    "transmission_origin": "coal_source_WR",
+                    "transmission_dest": "coal_NR",
+                    "distance": 950,
+                    "variable_om_cost": 0.000390662
+                },
+                {
+                    "id": "coal_ER_to_NER",
+                    "transmission_origin": "coal_source_ER",
+                    "transmission_dest": "coal_NER",
+                    "distance": 1350,
+                    "variable_om_cost": 0.000522535
+                },
+                {
+                    "id": "coal_NER_to_ER",
+                    "transmission_origin": "coal_source_NER",
+                    "transmission_dest": "coal_ER",
+                    "distance": 1350,
+                    "variable_om_cost": 0.000522535
+                },
+                {
+                    "id": "coal_WR_to_ER",
+                    "transmission_origin": "coal_source_WR",
+                    "transmission_dest": "coal_ER",
+                    "distance": 1300,
+                    "variable_om_cost": 0.000502032
+                },
+                {
+                    "id": "coal_ER_to_WR",
+                    "transmission_origin": "coal_source_ER",
+                    "transmission_dest": "coal_WR",
+                    "distance": 1300,
+                    "variable_om_cost": 0.000502032
+                },
+                {
+                    "id": "coal_WR_to_SR",
+                    "transmission_origin": "coal_source_WR",
+                    "transmission_dest": "coal_SR",
+                    "distance": 1150,
+                    "variable_om_cost": 0.000451967
+                },
+                {
+                    "id": "coal_SR_to_WR",
+                    "transmission_origin": "coal_source_SR",
+                    "transmission_dest": "coal_WR",
+                    "distance": 1150,
+                    "variable_om_cost": 0.000451967
+                },
+                {
+                    "id": "coal_ER_to_SR",
+                    "transmission_origin": "coal_source_ER",
+                    "transmission_dest": "coal_SR",
+                    "distance": 1600,
+                    "variable_om_cost": 0.000582826
+                },
+                {
+                    "id": "coal_SR_to_ER",
+                    "transmission_origin": "coal_source_SR",
+                    "transmission_dest": "coal_ER",
+                    "distance": 1600,
+                    "variable_om_cost": 0.000582826
+                },
+                {
+                    "id": "coal_NR_to_NER",
+                    "transmission_origin": "coal_source_NR",
+                    "transmission_dest": "coal_NER",
+                    "distance": 2150,
+                    "variable_om_cost": 0.000686796
+                },
+                {
+                    "id": "coal_NER_to_NR",
+                    "transmission_origin": "coal_source_NER",
+                    "transmission_dest": "coal_NR",
+                    "distance": 2150,
+                    "variable_om_cost": 0.000686796
+                },
+                {
+                    "id": "coal_WR_to_NER",
+                    "transmission_origin": "coal_source_WR",
+                    "transmission_dest": "coal_NER",
+                    "distance": 2400,
+                    "variable_om_cost": 0.000725853
+                },
+                {
+                    "id": "coal_NER_to_WR",
+                    "transmission_origin": "coal_source_NER",
+                    "transmission_dest": "coal_WR",
+                    "distance": 2400,
+                    "variable_om_cost": 0.000725853
+                },
+                {
+                    "id": "coal_NR_to_SR",
+                    "transmission_origin": "coal_source_NR",
+                    "transmission_dest": "coal_SR",
+                    "distance": 1950,
+                    "variable_om_cost": 0.000635910
+                },
+                {
+                    "id": "coal_SR_to_NR",
+                    "transmission_origin": "coal_source_SR",
+                    "transmission_dest": "coal_NR",
+                    "distance": 1950,
+                    "variable_om_cost": 0.000635910
+                },
+                {
+                    "id": "coal_SR_to_NER",
+                    "transmission_origin": "coal_source_SR",
+                    "transmission_dest": "coal_NER",
+                    "distance": 3000,
+                    "variable_om_cost": 0.000819633
+                },
+                {
+                    "id": "coal_NER_to_SR",
+                    "transmission_origin": "coal_source_NER",
+                    "transmission_dest": "coal_SR",
+                    "distance": 3000,
+                    "variable_om_cost": 0.000819633
+                }
+            ]
+        },
+        {
+            "type": "OneWayTransmissionLink",
+            "global_data": {
+                "#id": "Distribution network",
+                "commodity": "Coal",
+                "lifetime": 100,
+                "annualized_investment_cost": 0,
+                "capital_recovery_period": 1,
+                "wacc": 0,
+                "#distance": "Using inter-regional distances for coal transfer from EC_Transfers.xlsx .  Losses  total or per x km",
+                "#loss_fraction": "Taken from PIER -> EC_Transfers.csv",
+                "can_retire": true,
+                "can_expand": true
+            },
+            "instance_data": [
+                {
+                    "id": "NR_coal_distribution",
+                    "transmission_origin": "coal_source_NR",
+                    "transmission_dest": "coal_NR",
+                    "distance": 500, 
+                    "loss_fraction": 0.002,
+                    "variable_om_cost": 0.000198172
+                },
+                {
+                    "id": "NER_coal_distribution",
+                    "transmission_origin": "coal_source_NER",
+                    "transmission_dest": "coal_NER",
+                    "distance": 500, 
+                    "loss_fraction": 0.002,
+                    "variable_om_cost": 0.000170608
+                },
+                {
+                    "id": "ER_coal_distribution",
+                    "transmission_origin": "coal_source_ER",
+                    "transmission_dest": "coal_ER",
+                    "distance": 500, 
+                    "loss_fraction": 0.002,
+                    "variable_om_cost": 0.000198172
+                },
+                {
+                    "id": "WR_coal_distribution",
+                    "transmission_origin": "coal_source_WR",
+                    "transmission_dest": "coal_WR",
+                    "distance": 500, 
+                    "loss_fraction": 0.002,
+                    "variable_om_cost": 0.000225715
+                },
+                {
+                    "id": "SR_coal_distribution",
+                    "transmission_origin": "coal_source_SR",
+                    "transmission_dest": "coal_SR",
+                    "distance": 500, 
+                    "loss_fraction": 0.002,
+                    "variable_om_cost": 0.000198172
+                }
+            ]
+        }
+    ]
+}

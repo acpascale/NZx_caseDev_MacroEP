@@ -62,27 +62,6 @@
             "nodes": {
                 "path": "system/nodes/nodes_p3.json"
             }
-        },
-        {
-            "#period": "4, 2029",
-            "commodities": {
-                "path": "system/commodities.json"
-            },
-            "locations": {
-                "path": "system/locations.json"
-            },
-            "settings": {
-                "path": "settings/macro_settings.json"
-            },
-            "assets": {
-                "path": "assets/p4"
-            },
-            "time_data": {
-                "path": "system/time_data.json"
-            },
-            "nodes": {
-                "path": "system/nodes/nodes_p4.json"
-            }
         }
     ],
     "settings": {

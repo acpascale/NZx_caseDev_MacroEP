@@ -83,6 +83,27 @@
             "nodes": {
                 "path": "system/nodes/nodes_p4.json"
             }
+        },
+        {
+            "#period": "5, 2034",
+            "commodities": {
+                "path": "system/commodities.json"
+            },
+            "locations": {
+                "path": "system/locations.json"
+            },
+            "settings": {
+                "path": "settings/macro_settings.json"
+            },
+            "assets": {
+                "path": "assets/p5"
+            },
+            "time_data": {
+                "path": "system/time_data.json"
+            },
+            "nodes": {
+                "path": "system/nodes/nodes_p5.json"
+            }
         }
     ],
     "settings": {

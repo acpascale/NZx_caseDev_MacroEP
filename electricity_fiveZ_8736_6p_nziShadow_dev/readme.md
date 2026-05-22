@@ -23,6 +23,9 @@ When this version reaches stable operation and represents a useful update to the
     - Modelling of future tecnology improvements between periods
         - PIER wraps this into its availability profiles, and tying the profile in all future years to the installation year. It is unclear how Macro carries forward the installation state of legacy assets... what is recommended? I would expect that the availability of wind and solar should be left available to be tied to climate changes and not represent technology changes. 
 
+## 22 May 2026, 6p(4p)
+    - populated 4p model with updated nodes, availability, demand, and assets folders. Tested and visualized using updated Tableau workbook.
+
 ## 21 May 2026, 6p & 2p
 - 2p & 6p:
     - Turned UC off and removed UC related constraints from assets previosuly using UC
@@ -31,9 +34,6 @@ When this version reaches stable operation and represents a useful update to the
 - 6p:
     - fix 3p model (put regional coal prices and transfers back in place). Test, visualize, update Tableau wb. 2p,Mono = 5 min, :: 3p,Mono = 30/50 mins!
     - fix 3p model (fix storage lifetimes, add national coal source, no transfers). Test, visualize, update Tableau wb. 3p,Mono =  10 mins.
-    - populated 4p model with updated nodes, availability, demand, and assets folders. Tested and visualized using updated Tableau workbook.
-    - populated 5p model with updated nodes, availability, demand, and assets folders. Tested and visualized using updated Tableau workbook.
-    - populated 6p model with updated nodes, availability, demand, and assets folders. Tested and visualized using updated Tableau workbook.
 
 ## 20 May 2026, 6p and 2p
 - 2p: Minor updates to clean assets and a few small capcity adjustments
